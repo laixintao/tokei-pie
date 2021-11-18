@@ -79,7 +79,7 @@ def draw(sectors):
         )
     )
     fig.update_layout(
-        margin=dict(t=50, l=0, r=0, b=0), title="tokei-pie source code chart"
+        margin=dict(t=10, l=0, r=0, b=0), title="tokei-pie source code chart"
     )
 
     fig.show()
