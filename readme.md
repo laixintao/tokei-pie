@@ -21,4 +21,4 @@ $ tokei -o json | tokei-pie
 
 ![](./docs/tokei-pie-demo.png)
 
-(This is how [django](https://github.com/django/django) look like!)
+(This is how [django](https://github.com/django/django) looks like!)
