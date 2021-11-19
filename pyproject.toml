@@ -11,6 +11,7 @@ plotly = "^5.4.0"
 
 [tool.poetry.dev-dependencies]
 bumpversion = "^0.6.0"
+pytest = "^6.2.5"
 
 [tool.poetry.scripts]
 tokei-pie = 'tokei_pie.main:main'

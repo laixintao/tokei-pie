@@ -49,14 +49,12 @@ def draw(sectors, to_html):
     hover_texts = []
     colors = []
     for s in sectors:
+        logger.debug("sector: {}".format(s))
         ids.append(s.id)
         labels.append(s.label)
         parents.append(s.parent_id)
-        logger.debug(f"{s.code} {s.blanks} {s.comments}")
-
         values.append(s.code + s.comments + s.blanks)
         hover_texts.append(HOVER_TEMPLATE.format(s.code, s.comments, s.blanks))
-        logger.debug("sector: {}".format(s))
         lang = s.lang_type
         colors.append(LANGCOLOR.get(lang.lower()))
 
@@ -94,7 +92,7 @@ def build_file_tree(reports):
     for report in reports:
         full_filename = report["name"]
         pathes = full_filename.split(os.sep)
-        last = "."
+        last = pathes[0]
         for path in pathes[1:]:
             current = last + os.sep + path
             tree.setdefault(last, set()).add(current)
@@ -106,6 +104,7 @@ def convert2sectors(dirs, reports, language):
     flat_dirs = dirs.keys()
     logger.debug(f"flat_dirs: {flat_dirs}")
     logger.debug(f"reports: {reports}")
+    logger.debug(f"dirs: {dirs}")
 
     def dir2sector(dirname, dirs, reports, sectors, language):
         logger.debug(f"dir2sector({dirname}, {dirs} ...)")
@@ -117,9 +116,9 @@ def convert2sectors(dirs, reports, language):
             if is_file:
                 stats = reports[item]
                 base_dirs = item.split(os.sep)
-                filename = base_dirs[-1]
                 base_dirs[0] = language
                 parent_id = os.sep.join(base_dirs[:-1])
+                filename = base_dirs[-1]
                 myid = os.sep.join(base_dirs)
                 sectors.append(
                     Sector(
@@ -165,13 +164,14 @@ def convert2sectors(dirs, reports, language):
         return blanks, code, comments
 
     sectors = []
-    dir2sector(".", dirs, reports, sectors, language)
+    head = list(dirs.keys())[0]
+    dir2sector(head, dirs, reports, sectors, language)
     return sectors
 
 
 def read_reports(reports, parent_id):
     tree = build_file_tree(reports)
-    logger.debug(f"get tree: {tree}")
+    logger.debug(f"get tree for {parent_id}: {tree}")
     dict_reports = {i["name"]: i["stats"] for i in reports}
     sectors = convert2sectors(tree, dict_reports, parent_id)
     return sectors
@@ -198,6 +198,32 @@ def read_root(data):
     return sectors
 
 
+def common_prefix(prefixes, strings):
+    passed = current_prefix = ""
+    for prefix in prefixes:
+        current_prefix = current_prefix + prefix + os.sep
+        if any(not s.startswith(current_prefix) for s in strings):
+            return passed
+        passed = current_prefix
+
+
+def pre_parse_data(data):
+    reports = []
+    for value in data.values():
+        reports.extend(t["name"] for t in value.get("reports"))
+
+    one = reports[0]
+    pathes = one.split(os.sep)
+    common_prefix_str = common_prefix(pathes, reports)
+
+    prefix_len = len(common_prefix_str)
+    for value in data.values():
+        for report in value.get("reports"):
+            report["name"] = "." + os.sep + report["name"][prefix_len:]
+
+    return data
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("-v", "--verbose", action="count", default=0)
@@ -219,9 +245,13 @@ def main():
     try:
         data = json.load(sys.stdin)
     except json.decoder.JSONDecodeError:
-        print("Stdin is not json, please pass tokei's json output to tokei-pie, like this: tokei -o json | tokei-pie", file=sys.stderr)
+        print(
+            "Stdin is not json, please pass tokei's json output to tokei-pie, like this: tokei -o json | tokei-pie",
+            file=sys.stderr,
+        )
         sys.exit(128)
 
+    data = pre_parse_data(data)
     load_time = time.time()
     logger.info("load json file done, took {:.2f}s".format(load_time - start))
     sectors = read_root(data)
@@ -234,6 +264,7 @@ def main():
     logger.info(
         "draw sunburst chart done, took {:.2f}s".format(draw_time - parse_file_time)
     )
+
 
 if __name__ == "__main__":
     main()
