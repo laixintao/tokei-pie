@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tokei-pie"
-version = "0.1.2"
+version = "1.0.0"
 description = "Draw a pie chart for tokei output."
 authors = ["laixintao <laixintaoo@gmail.com>"]
 readme = 'readme.md'
