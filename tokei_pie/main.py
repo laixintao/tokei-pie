@@ -104,6 +104,7 @@ def convert2sectors(dirs, reports, language):
     flat_dirs = dirs.keys()
     logger.debug(f"flat_dirs: {flat_dirs}")
     logger.debug(f"reports: {reports}")
+    logger.debug(f"dirs: {dirs}")
 
     def dir2sector(dirname, dirs, reports, sectors, language):
         logger.debug(f"dir2sector({dirname}, {dirs} ...)")
@@ -115,7 +116,7 @@ def convert2sectors(dirs, reports, language):
             if is_file:
                 stats = reports[item]
                 base_dirs = item.split(os.sep)
-                base_dirs.insert(0, language)
+                base_dirs[0] = language
                 parent_id = os.sep.join(base_dirs[:-1])
                 filename = base_dirs[-1]
                 myid = os.sep.join(base_dirs)
@@ -142,9 +143,11 @@ def convert2sectors(dirs, reports, language):
                 code += _code
                 comments += _comments
 
+        if dirname == ".":
+            return 0, 0, 0
         base_dirs = dirname.split(os.sep)
         filename = base_dirs[-1]
-        base_dirs.insert(0, language)
+        base_dirs[0] = language
         parent_id = os.sep.join(base_dirs[:-1])
         myid = os.sep.join(base_dirs)
         sectors.append(
@@ -195,6 +198,32 @@ def read_root(data):
     return sectors
 
 
+def common_prefix(prefixes, strings):
+    passed = current_prefix = ""
+    for prefix in prefixes:
+        current_prefix = current_prefix + prefix + os.sep
+        if any(not s.startswith(current_prefix) for s in strings):
+            return passed
+        passed = current_prefix
+
+
+def pre_parse_data(data):
+    reports = []
+    for value in data.values():
+        reports.extend(t["name"] for t in value.get("reports"))
+
+    one = reports[0]
+    pathes = one.split(os.sep)
+    common_prefix_str = common_prefix(pathes, reports)
+
+    prefix_len = len(common_prefix_str)
+    for value in data.values():
+        for report in value.get("reports"):
+            report["name"] = "." + os.sep + report["name"][prefix_len:]
+
+    return data
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("-v", "--verbose", action="count", default=0)
@@ -222,6 +251,7 @@ def main():
         )
         sys.exit(128)
 
+    data = pre_parse_data(data)
     load_time = time.time()
     logger.info("load json file done, took {:.2f}s".format(load_time - start))
     sectors = read_root(data)
