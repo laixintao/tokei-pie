@@ -3,6 +3,7 @@ name = "tokei-pie"
 version = "0.1.1"
 description = "Draw a pie chart for tokei output."
 authors = ["laixintao <laixintaoo@gmail.com>"]
+readme = 'readme.md'
 
 [tool.poetry.dependencies]
 python = "^3.7.1"
