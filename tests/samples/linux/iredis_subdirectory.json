@@ -1,0 +1,2500 @@
+{
+  "JSON": {
+    "blanks": 0,
+    "children": {},
+    "code": 5659,
+    "comments": 0,
+    "inaccurate": false,
+    "reports": [
+      {
+        "name": "iredis/data/commands.json",
+        "stats": { "blanks": 0, "blobs": {}, "code": 5659, "comments": 0 }
+      }
+    ]
+  },
+  "Markdown": {
+    "blanks": 2977,
+    "children": {},
+    "code": 0,
+    "comments": 9851,
+    "inaccurate": false,
+    "reports": [
+      {
+        "name": "iredis/data/commands/brpoplpush.md",
+        "stats": { "blanks": 10, "blobs": {}, "code": 0, "comments": 18 }
+      },
+      {
+        "name": "iredis/data/commands/client-getname.md",
+        "stats": { "blanks": 2, "blobs": {}, "code": 0, "comments": 5 }
+      },
+      {
+        "name": "iredis/data/commands/bgrewriteaof.md",
+        "stats": { "blanks": 11, "blobs": {}, "code": 0, "comments": 26 }
+      },
+      {
+        "name": "iredis/data/commands/script-debug.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 21 }
+      },
+      {
+        "name": "iredis/data/commands/cluster-setslot.md",
+        "stats": { "blanks": 26, "blobs": {}, "code": 0, "comments": 107 }
+      },
+      {
+        "name": "iredis/data/commands/zscan.md",
+        "stats": { "blanks": 0, "blobs": {}, "code": 0, "comments": 1 }
+      },
+      {
+        "name": "iredis/data/commands/cluster-delslots.md",
+        "stats": { "blanks": 12, "blobs": {}, "code": 0, "comments": 35 }
+      },
+      {
+        "name": "iredis/data/commands/client-list.md",
+        "stats": { "blanks": 15, "blobs": {}, "code": 0, "comments": 73 }
+      },
+      {
+        "name": "iredis/data/commands/xpending.md",
+        "stats": { "blanks": 28, "blobs": {}, "code": 0, "comments": 112 }
+      },
+      {
+        "name": "iredis/data/commands/acl-whoami.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 10 }
+      },
+      {
+        "name": "iredis/data/commands/readonly.md",
+        "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 15 }
+      },
+      {
+        "name": "iredis/data/commands/geodist.md",
+        "stats": { "blanks": 10, "blobs": {}, "code": 0, "comments": 25 }
+      },
+      {
+        "name": "iredis/data/commands/incrbyfloat.md",
+        "stats": { "blanks": 10, "blobs": {}, "code": 0, "comments": 32 }
+      },
+      {
+        "name": "iredis/data/commands/set.md",
+        "stats": { "blanks": 26, "blobs": {}, "code": 0, "comments": 64 }
+      },
+      {
+        "name": "iredis/data/commands/zdiff.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 15 }
+      },
+      {
+        "name": "iredis/data/commands/pfadd.md",
+        "stats": { "blanks": 9, "blobs": {}, "code": 0, "comments": 24 }
+      },
+      {
+        "name": "iredis/data/commands/rpushx.md",
+        "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 16 }
+      },
+      {
+        "name": "iredis/data/commands/zpopmax.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 15 }
+      },
+      {
+        "name": "iredis/data/commands/incr.md",
+        "stats": { "blanks": 30, "blobs": {}, "code": 0, "comments": 126 }
+      },
+      {
+        "name": "iredis/data/commands/append.md",
+        "stats": { "blanks": 13, "blobs": {}, "code": 0, "comments": 42 }
+      },
+      {
+        "name": "iredis/data/commands/info.md",
+        "stats": { "blanks": 62, "blobs": {}, "code": 0, "comments": 329 }
+      },
+      {
+        "name": "iredis/data/commands/spop.md",
+        "stats": { "blanks": 13, "blobs": {}, "code": 0, "comments": 30 }
+      },
+      {
+        "name": "iredis/data/commands/zrangebyscore.md",
+        "stats": { "blanks": 27, "blobs": {}, "code": 0, "comments": 76 }
+      },
+      {
+        "name": "iredis/data/commands/watch.md",
+        "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 5 }
+      },
+      {
+        "name": "iredis/data/commands/xack.md",
+        "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 23 }
+      },
+      {
+        "name": "iredis/data/commands/punsubscribe.md",
+        "stats": { "blanks": 1, "blobs": {}, "code": 0, "comments": 5 }
+      },
+      {
+        "name": "iredis/data/commands/client-unpause.md",
+        "stats": { "blanks": 2, "blobs": {}, "code": 0, "comments": 4 }
+      },
+      {
+        "name": "iredis/data/commands/hget.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 10 }
+      },
+      {
+        "name": "iredis/data/commands/client-reply.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 16 }
+      },
+      {
+        "name": "iredis/data/commands/randomkey.md",
+        "stats": { "blanks": 2, "blobs": {}, "code": 0, "comments": 3 }
+      },
+      {
+        "name": "iredis/data/commands/hexists.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 11 }
+      },
+      {
+        "name": "iredis/data/commands/xtrim.md",
+        "stats": { "blanks": 21, "blobs": {}, "code": 0, "comments": 53 }
+      },
+      {
+        "name": "iredis/data/commands/sunionstore.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 16 }
+      },
+      {
+        "name": "iredis/data/commands/smove.md",
+        "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 21 }
+      },
+      {
+        "name": "iredis/data/commands/slowlog.md",
+        "stats": { "blanks": 20, "blobs": {}, "code": 0, "comments": 66 }
+      },
+      {
+        "name": "iredis/data/commands/acl-deluser.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 13 }
+      },
+      {
+        "name": "iredis/data/commands/renamenx.md",
+        "stats": { "blanks": 8, "blobs": {}, "code": 0, "comments": 19 }
+      },
+      {
+        "name": "iredis/data/commands/eval_ro.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 14 }
+      },
+      {
+        "name": "iredis/data/commands/zrevrangebylex.md",
+        "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 15 }
+      },
+      {
+        "name": "iredis/data/commands/slaveof.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 20 }
+      },
+      {
+        "name": "iredis/data/commands/cluster-info.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 51 }
+      },
+      {
+        "name": "iredis/data/commands/setex.md",
+        "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 20 }
+      },
+      {
+        "name": "iredis/data/commands/srandmember.md",
+        "stats": { "blanks": 19, "blobs": {}, "code": 0, "comments": 49 }
+      },
+      {
+        "name": "iredis/data/commands/select.md",
+        "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 21 }
+      },
+      {
+        "name": "iredis/data/commands/cluster-reset.md",
+        "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 23 }
+      },
+      {
+        "name": "iredis/data/commands/lrem.md",
+        "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 21 }
+      },
+      {
+        "name": "iredis/data/commands/lset.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 14 }
+      },
+      {
+        "name": "iredis/data/commands/brpop.md",
+        "stats": { "blanks": 9, "blobs": {}, "code": 0, "comments": 26 }
+      },
+      {
+        "name": "iredis/data/commands/script-flush.md",
+        "stats": { "blanks": 8, "blobs": {}, "code": 0, "comments": 15 }
+      },
+      {
+        "name": "iredis/data/commands/cluster-failover.md",
+        "stats": { "blanks": 18, "blobs": {}, "code": 0, "comments": 63 }
+      },
+      {
+        "name": "iredis/data/commands/monitor.md",
+        "stats": { "blanks": 20, "blobs": {}, "code": 0, "comments": 74 }
+      },
+      {
+        "name": "iredis/data/commands/srem.md",
+        "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 19 }
+      },
+      {
+        "name": "iredis/data/commands/hset.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 12 }
+      },
+      {
+        "name": "iredis/data/commands/bzpopmax.md",
+        "stats": { "blanks": 11, "blobs": {}, "code": 0, "comments": 30 }
+      },
+      {
+        "name": "iredis/data/commands/bitfield.md",
+        "stats": { "blanks": 36, "blobs": {}, "code": 0, "comments": 120 }
+      },
+      {
+        "name": "iredis/data/commands/sscan.md",
+        "stats": { "blanks": 0, "blobs": {}, "code": 0, "comments": 1 }
+      },
+      {
+        "name": "iredis/data/commands/publish.md",
+        "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 8 }
+      },
+      {
+        "name": "iredis/data/commands/ltrim.md",
+        "stats": { "blanks": 10, "blobs": {}, "code": 0, "comments": 32 }
+      },
+      {
+        "name": "iredis/data/commands/ping.md",
+        "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 14 }
+      },
+      {
+        "name": "iredis/data/commands/setnx.md",
+        "stats": { "blanks": 25, "blobs": {}, "code": 0, "comments": 77 }
+      },
+      {
+        "name": "iredis/data/commands/memory-doctor.md",
+        "stats": { "blanks": 2, "blobs": {}, "code": 0, "comments": 4 }
+      },
+      {
+        "name": "iredis/data/commands/rpush.md",
+        "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 20 }
+      },
+      {
+        "name": "iredis/data/commands/client-setname.md",
+        "stats": { "blanks": 9, "blobs": {}, "code": 0, "comments": 19 }
+      },
+      {
+        "name": "iredis/data/commands/pexpire.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 13 }
+      },
+      {
+        "name": "iredis/data/commands/stralgo.md",
+        "stats": { "blanks": 23, "blobs": {}, "code": 0, "comments": 98 }
+      },
+      {
+        "name": "iredis/data/commands/msetnx.md",
+        "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 17 }
+      },
+      {
+        "name": "iredis/data/commands/acl-users.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 11 }
+      },
+      {
+        "name": "iredis/data/commands/lpop.md",
+        "stats": { "blanks": 10, "blobs": {}, "code": 0, "comments": 19 }
+      },
+      {
+        "name": "iredis/data/commands/pfcount.md",
+        "stats": { "blanks": 21, "blobs": {}, "code": 0, "comments": 72 }
+      },
+      {
+        "name": "iredis/data/commands/zremrangebyrank.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 16 }
+      },
+      {
+        "name": "iredis/data/commands/pttl.md",
+        "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 17 }
+      },
+      {
+        "name": "iredis/data/commands/hvals.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 10 }
+      },
+      {
+        "name": "iredis/data/commands/echo.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 7 }
+      },
+      {
+        "name": "iredis/data/commands/lmove.md",
+        "stats": { "blanks": 18, "blobs": {}, "code": 0, "comments": 59 }
+      },
+      {
+        "name": "iredis/data/commands/migrate.md",
+        "stats": { "blanks": 19, "blobs": {}, "code": 0, "comments": 62 }
+      },
+      {
+        "name": "iredis/data/commands/script-kill.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 14 }
+      },
+      {
+        "name": "iredis/data/commands/restore.md",
+        "stats": { "blanks": 10, "blobs": {}, "code": 0, "comments": 31 }
+      },
+      {
+        "name": "iredis/data/commands/client-id.md",
+        "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 18 }
+      },
+      {
+        "name": "iredis/data/commands/get.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 11 }
+      },
+      {
+        "name": "iredis/data/commands/eval.md",
+        "stats": { "blanks": 206, "blobs": {}, "code": 0, "comments": 707 }
+      },
+      {
+        "name": "iredis/data/commands/zcard.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 11 }
+      },
+      {
+        "name": "iredis/data/commands/xlen.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 16 }
+      },
+      {
+        "name": "iredis/data/commands/hincrbyfloat.md",
+        "stats": { "blanks": 8, "blobs": {}, "code": 0, "comments": 25 }
+      },
+      {
+        "name": "iredis/data/commands/sdiff.md",
+        "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 22 }
+      },
+      {
+        "name": "iredis/data/commands/client-info.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 11 }
+      },
+      {
+        "name": "iredis/data/commands/getex.md",
+        "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 21 }
+      },
+      {
+        "name": "iredis/data/commands/bgsave.md",
+        "stats": { "blanks": 10, "blobs": {}, "code": 0, "comments": 18 }
+      },
+      {
+        "name": "iredis/data/commands/hgetall.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 12 }
+      },
+      {
+        "name": "iredis/data/commands/unwatch.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 5 }
+      },
+      {
+        "name": "iredis/data/commands/command-getkeys.md",
+        "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 15 }
+      },
+      {
+        "name": "iredis/data/commands/getrange.md",
+        "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 18 }
+      },
+      {
+        "name": "iredis/data/commands/command.md",
+        "stats": { "blanks": 39, "blobs": {}, "code": 0, "comments": 144 }
+      },
+      {
+        "name": "iredis/data/commands/hstrlen.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 12 }
+      },
+      {
+        "name": "iredis/data/commands/acl-getuser.md",
+        "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 27 }
+      },
+      {
+        "name": "iredis/data/commands/latency-help.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 6 }
+      },
+      {
+        "name": "iredis/data/commands/memory-purge.md",
+        "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 6 }
+      },
+      {
+        "name": "iredis/data/commands/rpoplpush.md",
+        "stats": { "blanks": 18, "blobs": {}, "code": 0, "comments": 56 }
+      },
+      {
+        "name": "iredis/data/commands/zrange.md",
+        "stats": { "blanks": 43, "blobs": {}, "code": 0, "comments": 116 }
+      },
+      {
+        "name": "iredis/data/commands/object.md",
+        "stats": { "blanks": 13, "blobs": {}, "code": 0, "comments": 67 }
+      },
+      {
+        "name": "iredis/data/commands/command-count.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 7 }
+      },
+      {
+        "name": "iredis/data/commands/rpop.md",
+        "stats": { "blanks": 10, "blobs": {}, "code": 0, "comments": 19 }
+      },
+      {
+        "name": "iredis/data/commands/hmget.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 13 }
+      },
+      {
+        "name": "iredis/data/commands/cluster-bumpepoch.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 11 }
+      },
+      {
+        "name": "iredis/data/commands/evalsha.md",
+        "stats": { "blanks": 0, "blobs": {}, "code": 0, "comments": 3 }
+      },
+      {
+        "name": "iredis/data/commands/zadd.md",
+        "stats": { "blanks": 26, "blobs": {}, "code": 0, "comments": 82 }
+      },
+      {
+        "name": "iredis/data/commands/xclaim.md",
+        "stats": { "blanks": 13, "blobs": {}, "code": 0, "comments": 71 }
+      },
+      {
+        "name": "iredis/data/commands/acl-genpass.md",
+        "stats": { "blanks": 8, "blobs": {}, "code": 0, "comments": 35 }
+      },
+      {
+        "name": "iredis/data/commands/mset.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 13 }
+      },
+      {
+        "name": "iredis/data/commands/ttl.md",
+        "stats": { "blanks": 8, "blobs": {}, "code": 0, "comments": 19 }
+      },
+      {
+        "name": "iredis/data/commands/zmscore.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 13 }
+      },
+      {
+        "name": "iredis/data/commands/geoadd.md",
+        "stats": { "blanks": 21, "blobs": {}, "code": 0, "comments": 57 }
+      },
+      {
+        "name": "iredis/data/commands/zscore.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 11 }
+      },
+      {
+        "name": "iredis/data/commands/hdel.md",
+        "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 17 }
+      },
+      {
+        "name": "iredis/data/commands/zunionstore.md",
+        "stats": { "blanks": 8, "blobs": {}, "code": 0, "comments": 30 }
+      },
+      {
+        "name": "iredis/data/commands/zcount.md",
+        "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 17 }
+      },
+      {
+        "name": "iredis/data/commands/zunion.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 16 }
+      },
+      {
+        "name": "iredis/data/commands/hscan.md",
+        "stats": { "blanks": 0, "blobs": {}, "code": 0, "comments": 1 }
+      },
+      {
+        "name": "iredis/data/commands/discard.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 6 }
+      },
+      {
+        "name": "iredis/data/commands/blpop.md",
+        "stats": { "blanks": 42, "blobs": {}, "code": 0, "comments": 144 }
+      },
+      {
+        "name": "iredis/data/commands/module-list.md",
+        "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 7 }
+      },
+      {
+        "name": "iredis/data/commands/dump.md",
+        "stats": { "blanks": 8, "blobs": {}, "code": 0, "comments": 22 }
+      },
+      {
+        "name": "iredis/data/commands/cluster-saveconfig.md",
+        "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 12 }
+      },
+      {
+        "name": "iredis/data/commands/geoencode.md",
+        "stats": { "blanks": 13, "blobs": {}, "code": 0, "comments": 44 }
+      },
+      {
+        "name": "iredis/data/commands/xinfo.md",
+        "stats": { "blanks": 23, "blobs": {}, "code": 0, "comments": 160 }
+      },
+      {
+        "name": "iredis/data/commands/sunion.md",
+        "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 21 }
+      },
+      {
+        "name": "iredis/data/commands/xautoclaim.md",
+        "stats": { "blanks": 13, "blobs": {}, "code": 0, "comments": 57 }
+      },
+      {
+        "name": "iredis/data/commands/zrank.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 17 }
+      },
+      {
+        "name": "iredis/data/commands/rename.md",
+        "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 19 }
+      },
+      {
+        "name": "iredis/data/commands/debug-segfault.md",
+        "stats": { "blanks": 2, "blobs": {}, "code": 0, "comments": 4 }
+      },
+      {
+        "name": "iredis/data/commands/hrandfield.md",
+        "stats": { "blanks": 13, "blobs": {}, "code": 0, "comments": 37 }
+      },
+      {
+        "name": "iredis/data/commands/zrangestore.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 10 }
+      },
+      {
+        "name": "iredis/data/commands/move.md",
+        "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 8 }
+      },
+      {
+        "name": "iredis/data/commands/xadd.md",
+        "stats": { "blanks": 25, "blobs": {}, "code": 0, "comments": 69 }
+      },
+      {
+        "name": "iredis/data/commands/zinter.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 16 }
+      },
+      {
+        "name": "iredis/data/commands/unsubscribe.md",
+        "stats": { "blanks": 1, "blobs": {}, "code": 0, "comments": 5 }
+      },
+      {
+        "name": "iredis/data/commands/client-pause.md",
+        "stats": { "blanks": 15, "blobs": {}, "code": 0, "comments": 47 }
+      },
+      {
+        "name": "iredis/data/commands/expire.md",
+        "stats": { "blanks": 45, "blobs": {}, "code": 0, "comments": 121 }
+      },
+      {
+        "name": "iredis/data/commands/memory-malloc-stats.md",
+        "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 6 }
+      },
+      {
+        "name": "iredis/data/commands/pubsub.md",
+        "stats": { "blanks": 16, "blobs": {}, "code": 0, "comments": 34 }
+      },
+      {
+        "name": "iredis/data/commands/xdel.md",
+        "stats": { "blanks": 9, "blobs": {}, "code": 0, "comments": 42 }
+      },
+      {
+        "name": "iredis/data/commands/debug-object.md",
+        "stats": { "blanks": 2, "blobs": {}, "code": 0, "comments": 4 }
+      },
+      {
+        "name": "iredis/data/commands/unlink.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 14 }
+      },
+      {
+        "name": "iredis/data/commands/config-resetstat.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 12 }
+      },
+      {
+        "name": "iredis/data/commands/psubscribe.md",
+        "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 6 }
+      },
+      {
+        "name": "iredis/data/commands/client-getredir.md",
+        "stats": { "blanks": 2, "blobs": {}, "code": 0, "comments": 11 }
+      },
+      {
+        "name": "iredis/data/commands/xgroup.md",
+        "stats": { "blanks": 25, "blobs": {}, "code": 0, "comments": 56 }
+      },
+      {
+        "name": "iredis/data/commands/geohash.md",
+        "stats": { "blanks": 9, "blobs": {}, "code": 0, "comments": 30 }
+      },
+      {
+        "name": "iredis/data/commands/geopos.md",
+        "stats": { "blanks": 8, "blobs": {}, "code": 0, "comments": 20 }
+      },
+      {
+        "name": "iredis/data/commands/cluster-replicate.md",
+        "stats": { "blanks": 8, "blobs": {}, "code": 0, "comments": 21 }
+      },
+      {
+        "name": "iredis/data/commands/getdel.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 12 }
+      },
+      {
+        "name": "iredis/data/commands/cluster-replicas.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 12 }
+      },
+      {
+        "name": "iredis/data/commands/setbit.md",
+        "stats": { "blanks": 30, "blobs": {}, "code": 0, "comments": 129 }
+      },
+      {
+        "name": "iredis/data/commands/smismember.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 12 }
+      },
+      {
+        "name": "iredis/data/commands/lpushx.md",
+        "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 16 }
+      },
+      {
+        "name": "iredis/data/commands/acl-help.md",
+        "stats": { "blanks": 2, "blobs": {}, "code": 0, "comments": 4 }
+      },
+      {
+        "name": "iredis/data/commands/scan.md",
+        "stats": { "blanks": 60, "blobs": {}, "code": 0, "comments": 281 }
+      },
+      {
+        "name": "iredis/data/commands/acl-setuser.md",
+        "stats": { "blanks": 22, "blobs": {}, "code": 0, "comments": 104 }
+      },
+      {
+        "name": "iredis/data/commands/sinterstore.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 16 }
+      },
+      {
+        "name": "iredis/data/commands/client-tracking.md",
+        "stats": { "blanks": 8, "blobs": {}, "code": 0, "comments": 48 }
+      },
+      {
+        "name": "iredis/data/commands/cluster-myid.md",
+        "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 5 }
+      },
+      {
+        "name": "iredis/data/commands/module-unload.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 8 }
+      },
+      {
+        "name": "iredis/data/commands/zrevrangebyscore.md",
+        "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 23 }
+      },
+      {
+        "name": "iredis/data/commands/smembers.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 10 }
+      },
+      {
+        "name": "iredis/data/commands/lolwut.md",
+        "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 29 }
+      },
+      {
+        "name": "iredis/data/commands/hmset.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 13 }
+      },
+      {
+        "name": "iredis/data/commands/sinter.md",
+        "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 24 }
+      },
+      {
+        "name": "iredis/data/commands/client-unblock.md",
+        "stats": { "blanks": 14, "blobs": {}, "code": 0, "comments": 49 }
+      },
+      {
+        "name": "iredis/data/commands/memory-help.md",
+        "stats": { "blanks": 2, "blobs": {}, "code": 0, "comments": 4 }
+      },
+      {
+        "name": "iredis/data/commands/xread.md",
+        "stats": { "blanks": 42, "blobs": {}, "code": 0, "comments": 168 }
+      },
+      {
+        "name": "iredis/data/commands/mget.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 11 }
+      },
+      {
+        "name": "iredis/data/commands/acl-load.md",
+        "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 20 }
+      },
+      {
+        "name": "iredis/data/commands/touch.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 9 }
+      },
+      {
+        "name": "iredis/data/commands/command-info.md",
+        "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 12 }
+      },
+      {
+        "name": "iredis/data/commands/cluster-slots.md",
+        "stats": { "blanks": 13, "blobs": {}, "code": 0, "comments": 89 }
+      },
+      {
+        "name": "iredis/data/commands/lpush.md",
+        "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 20 }
+      },
+      {
+        "name": "iredis/data/commands/script-load.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 13 }
+      },
+      {
+        "name": "iredis/data/commands/psync.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 9 }
+      },
+      {
+        "name": "iredis/data/commands/cluster-forget.md",
+        "stats": { "blanks": 15, "blobs": {}, "code": 0, "comments": 44 }
+      },
+      {
+        "name": "iredis/data/commands/xreadgroup.md",
+        "stats": { "blanks": 33, "blobs": {}, "code": 0, "comments": 114 }
+      },
+      {
+        "name": "iredis/data/commands/memory-stats.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 45 }
+      },
+      {
+        "name": "iredis/data/commands/hkeys.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 10 }
+      },
+      {
+        "name": "iredis/data/commands/blmove.md",
+        "stats": { "blanks": 8, "blobs": {}, "code": 0, "comments": 15 }
+      },
+      {
+        "name": "iredis/data/commands/linsert.md",
+        "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 15 }
+      },
+      {
+        "name": "iredis/data/commands/zpopmin.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 15 }
+      },
+      {
+        "name": "iredis/data/commands/hincrby.md",
+        "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 16 }
+      },
+      {
+        "name": "iredis/data/commands/xrange.md",
+        "stats": { "blanks": 44, "blobs": {}, "code": 0, "comments": 181 }
+      },
+      {
+        "name": "iredis/data/commands/reset.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 19 }
+      },
+      {
+        "name": "iredis/data/commands/multi.md",
+        "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 5 }
+      },
+      {
+        "name": "iredis/data/commands/config-get.md",
+        "stats": { "blanks": 12, "blobs": {}, "code": 0, "comments": 40 }
+      },
+      {
+        "name": "iredis/data/commands/pexpireat.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 13 }
+      },
+      {
+        "name": "iredis/data/commands/llen.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 11 }
+      },
+      {
+        "name": "iredis/data/commands/geosearchstore.md",
+        "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 8 }
+      },
+      {
+        "name": "iredis/data/commands/wait.md",
+        "stats": { "blanks": 16, "blobs": {}, "code": 0, "comments": 59 }
+      },
+      {
+        "name": "iredis/data/commands/script-exists.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 14 }
+      },
+      {
+        "name": "iredis/data/commands/lastsave.md",
+        "stats": { "blanks": 2, "blobs": {}, "code": 0, "comments": 6 }
+      },
+      {
+        "name": "iredis/data/commands/bitpos.md",
+        "stats": { "blanks": 15, "blobs": {}, "code": 0, "comments": 45 }
+      },
+      {
+        "name": "iredis/data/commands/replicaof.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 16 }
+      },
+      {
+        "name": "iredis/data/commands/persist.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 15 }
+      },
+      {
+        "name": "iredis/data/commands/zremrangebyscore.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 14 }
+      },
+      {
+        "name": "iredis/data/commands/quit.md",
+        "stats": { "blanks": 2, "blobs": {}, "code": 0, "comments": 4 }
+      },
+      {
+        "name": "iredis/data/commands/cluster-nodes.md",
+        "stats": { "blanks": 29, "blobs": {}, "code": 0, "comments": 119 }
+      },
+      {
+        "name": "iredis/data/commands/exec.md",
+        "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 10 }
+      },
+      {
+        "name": "iredis/data/commands/cluster-flushslots.md",
+        "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 5 }
+      },
+      {
+        "name": "iredis/data/commands/sort.md",
+        "stats": { "blanks": 35, "blobs": {}, "code": 0, "comments": 101 }
+      },
+      {
+        "name": "iredis/data/commands/swapdb.md",
+        "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 13 }
+      },
+      {
+        "name": "iredis/data/commands/expiretime.md",
+        "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 16 }
+      },
+      {
+        "name": "iredis/data/commands/zrevrank.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 17 }
+      },
+      {
+        "name": "iredis/data/commands/client-trackinginfo.md",
+        "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 22 }
+      },
+      {
+        "name": "iredis/data/commands/type.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 14 }
+      },
+      {
+        "name": "iredis/data/commands/xrevrange.md",
+        "stats": { "blanks": 11, "blobs": {}, "code": 0, "comments": 30 }
+      },
+      {
+        "name": "iredis/data/commands/cluster-meet.md",
+        "stats": { "blanks": 13, "blobs": {}, "code": 0, "comments": 42 }
+      },
+      {
+        "name": "iredis/data/commands/incrby.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 12 }
+      },
+      {
+        "name": "iredis/data/commands/latency-latest.md",
+        "stats": { "blanks": 10, "blobs": {}, "code": 0, "comments": 28 }
+      },
+      {
+        "name": "iredis/data/commands/role.md",
+        "stats": { "blanks": 26, "blobs": {}, "code": 0, "comments": 79 }
+      },
+      {
+        "name": "iredis/data/commands/acl-save.md",
+        "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 14 }
+      },
+      {
+        "name": "iredis/data/commands/sismember.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 11 }
+      },
+      {
+        "name": "iredis/data/commands/zrandmember.md",
+        "stats": { "blanks": 13, "blobs": {}, "code": 0, "comments": 37 }
+      },
+      {
+        "name": "iredis/data/commands/flushall.md",
+        "stats": { "blanks": 8, "blobs": {}, "code": 0, "comments": 18 }
+      },
+      {
+        "name": "iredis/data/commands/geodecode.md",
+        "stats": { "blanks": 9, "blobs": {}, "code": 0, "comments": 25 }
+      },
+      {
+        "name": "iredis/data/commands/decrby.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 12 }
+      },
+      {
+        "name": "iredis/data/commands/setrange.md",
+        "stats": { "blanks": 11, "blobs": {}, "code": 0, "comments": 36 }
+      },
+      {
+        "name": "iredis/data/commands/bzpopmin.md",
+        "stats": { "blanks": 11, "blobs": {}, "code": 0, "comments": 30 }
+      },
+      {
+        "name": "iredis/data/commands/client-kill.md",
+        "stats": { "blanks": 21, "blobs": {}, "code": 0, "comments": 56 }
+      },
+      {
+        "name": "iredis/data/commands/readwrite.md",
+        "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 7 }
+      },
+      {
+        "name": "iredis/data/commands/hlen.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 9 }
+      },
+      {
+        "name": "iredis/data/commands/expireat.md",
+        "stats": { "blanks": 9, "blobs": {}, "code": 0, "comments": 22 }
+      },
+      {
+        "name": "iredis/data/commands/module-load.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 9 }
+      },
+      {
+        "name": "iredis/data/commands/cluster-getkeysinslot.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 16 }
+      },
+      {
+        "name": "iredis/data/commands/shutdown.md",
+        "stats": { "blanks": 13, "blobs": {}, "code": 0, "comments": 49 }
+      },
+      {
+        "name": "iredis/data/commands/zrem.md",
+        "stats": { "blanks": 8, "blobs": {}, "code": 0, "comments": 18 }
+      },
+      {
+        "name": "iredis/data/commands/latency-history.md",
+        "stats": { "blanks": 11, "blobs": {}, "code": 0, "comments": 36 }
+      },
+      {
+        "name": "iredis/data/commands/failover.md",
+        "stats": { "blanks": 16, "blobs": {}, "code": 0, "comments": 68 }
+      },
+      {
+        "name": "iredis/data/commands/flushdb.md",
+        "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 13 }
+      },
+      {
+        "name": "iredis/data/commands/config-set.md",
+        "stats": { "blanks": 14, "blobs": {}, "code": 0, "comments": 42 }
+      },
+      {
+        "name": "iredis/data/commands/acl-cat.md",
+        "stats": { "blanks": 9, "blobs": {}, "code": 0, "comments": 75 }
+      },
+      {
+        "name": "iredis/data/commands/cluster-countkeysinslot.md",
+        "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 10 }
+      },
+      {
+        "name": "iredis/data/commands/copy.md",
+        "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 17 }
+      },
+      {
+        "name": "iredis/data/commands/bitop.md",
+        "stats": { "blanks": 19, "blobs": {}, "code": 0, "comments": 42 }
+      },
+      {
+        "name": "iredis/data/commands/cluster-count-failure-reports.md",
+        "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 28 }
+      },
+      {
+        "name": "iredis/data/commands/lrange.md",
+        "stats": { "blanks": 9, "blobs": {}, "code": 0, "comments": 28 }
+      },
+      {
+        "name": "iredis/data/commands/getset.md",
+        "stats": { "blanks": 8, "blobs": {}, "code": 0, "comments": 25 }
+      },
+      {
+        "name": "iredis/data/commands/keys.md",
+        "stats": { "blanks": 10, "blobs": {}, "code": 0, "comments": 27 }
+      },
+      {
+        "name": "iredis/data/commands/config-rewrite.md",
+        "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 30 }
+      },
+      {
+        "name": "iredis/data/commands/subscribe.md",
+        "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 6 }
+      },
+      {
+        "name": "iredis/data/commands/del.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 9 }
+      },
+      {
+        "name": "iredis/data/commands/pfmerge.md",
+        "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 16 }
+      },
+      {
+        "name": "iredis/data/commands/zremrangebylex.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 17 }
+      },
+      {
+        "name": "iredis/data/commands/cluster-keyslot.md",
+        "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 26 }
+      },
+      {
+        "name": "iredis/data/commands/strlen.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 11 }
+      },
+      {
+        "name": "iredis/data/commands/pexpiretime.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 14 }
+      },
+      {
+        "name": "iredis/data/commands/zinterstore.md",
+        "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 23 }
+      },
+      {
+        "name": "iredis/data/commands/decr.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 14 }
+      },
+      {
+        "name": "iredis/data/commands/zincrby.md",
+        "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 19 }
+      },
+      {
+        "name": "iredis/data/commands/geosearch.md",
+        "stats": { "blanks": 17, "blobs": {}, "code": 0, "comments": 60 }
+      },
+      {
+        "name": "iredis/data/commands/zlexcount.md",
+        "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 17 }
+      },
+      {
+        "name": "iredis/data/commands/cluster-addslots.md",
+        "stats": { "blanks": 15, "blobs": {}, "code": 0, "comments": 40 }
+      },
+      {
+        "name": "iredis/data/commands/evalsha_ro.md",
+        "stats": { "blanks": 1, "blobs": {}, "code": 0, "comments": 5 }
+      },
+      {
+        "name": "iredis/data/commands/scard.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 10 }
+      },
+      {
+        "name": "iredis/data/commands/georadius.md",
+        "stats": { "blanks": 27, "blobs": {}, "code": 0, "comments": 85 }
+      },
+      {
+        "name": "iredis/data/commands/acl-log.md",
+        "stats": { "blanks": 9, "blobs": {}, "code": 0, "comments": 32 }
+      },
+      {
+        "name": "iredis/data/commands/georadiusbymember.md",
+        "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 18 }
+      },
+      {
+        "name": "iredis/data/commands/sdiffstore.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 16 }
+      },
+      {
+        "name": "iredis/data/commands/lpos.md",
+        "stats": { "blanks": 21, "blobs": {}, "code": 0, "comments": 78 }
+      },
+      {
+        "name": "iredis/data/commands/memory-usage.md",
+        "stats": { "blanks": 9, "blobs": {}, "code": 0, "comments": 31 }
+      },
+      {
+        "name": "iredis/data/commands/latency-reset.md",
+        "stats": { "blanks": 8, "blobs": {}, "code": 0, "comments": 28 }
+      },
+      {
+        "name": "iredis/data/commands/dbsize.md",
+        "stats": { "blanks": 2, "blobs": {}, "code": 0, "comments": 3 }
+      },
+      {
+        "name": "iredis/data/commands/latency-doctor.md",
+        "stats": { "blanks": 13, "blobs": {}, "code": 0, "comments": 34 }
+      },
+      {
+        "name": "iredis/data/commands/hello.md",
+        "stats": { "blanks": 13, "blobs": {}, "code": 0, "comments": 60 }
+      },
+      {
+        "name": "iredis/data/commands/cluster-slaves.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 17 }
+      },
+      {
+        "name": "iredis/data/commands/psetex.md",
+        "stats": { "blanks": 2, "blobs": {}, "code": 0, "comments": 8 }
+      },
+      {
+        "name": "iredis/data/commands/save.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 12 }
+      },
+      {
+        "name": "iredis/data/commands/sadd.md",
+        "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 17 }
+      },
+      {
+        "name": "iredis/data/commands/sync.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 10 }
+      },
+      {
+        "name": "iredis/data/commands/zrangebylex.md",
+        "stats": { "blanks": 16, "blobs": {}, "code": 0, "comments": 53 }
+      },
+      {
+        "name": "iredis/data/commands/hsetnx.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 13 }
+      },
+      {
+        "name": "iredis/data/commands/cluster-set-config-epoch.md",
+        "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 19 }
+      },
+      {
+        "name": "iredis/data/commands/zrevrange.md",
+        "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 18 }
+      },
+      {
+        "name": "iredis/data/commands/client-caching.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 15 }
+      },
+      {
+        "name": "iredis/data/commands/exists.md",
+        "stats": { "blanks": 9, "blobs": {}, "code": 0, "comments": 24 }
+      },
+      {
+        "name": "iredis/data/commands/auth.md",
+        "stats": { "blanks": 15, "blobs": {}, "code": 0, "comments": 31 }
+      },
+      {
+        "name": "iredis/data/commands/lindex.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 17 }
+      },
+      {
+        "name": "iredis/data/commands/bitcount.md",
+        "stats": { "blanks": 19, "blobs": {}, "code": 0, "comments": 47 }
+      },
+      {
+        "name": "iredis/data/commands/time.md",
+        "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 14 }
+      },
+      {
+        "name": "iredis/data/commands/zdiffstore.md",
+        "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 18 }
+      },
+      {
+        "name": "iredis/data/commands/acl-list.md",
+        "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 13 }
+      },
+      {
+        "name": "iredis/data/commands/latency-graph.md",
+        "stats": { "blanks": 12, "blobs": {}, "code": 0, "comments": 56 }
+      },
+      {
+        "name": "iredis/data/commands/getbit.md",
+        "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 14 }
+      }
+    ]
+  },
+  "Python": {
+    "blanks": 429,
+    "children": {},
+    "code": 3095,
+    "comments": 161,
+    "inaccurate": false,
+    "reports": [
+      {
+        "name": "iredis/commands.py",
+        "stats": { "blanks": 19, "blobs": {}, "code": 123, "comments": 8 }
+      },
+      {
+        "name": "iredis/data/commands/__init__.py",
+        "stats": { "blanks": 0, "blobs": {}, "code": 0, "comments": 0 }
+      },
+      {
+        "name": "iredis/data/__init__.py",
+        "stats": { "blanks": 0, "blobs": {}, "code": 0, "comments": 0 }
+      },
+      {
+        "name": "iredis/exceptions.py",
+        "stats": { "blanks": 10, "blobs": {}, "code": 12, "comments": 0 }
+      },
+      {
+        "name": "iredis/processors.py",
+        "stats": { "blanks": 17, "blobs": {}, "code": 59, "comments": 3 }
+      },
+      {
+        "name": "iredis/__init__.py",
+        "stats": { "blanks": 0, "blobs": {}, "code": 1, "comments": 0 }
+      },
+      {
+        "name": "iredis/markdown.py",
+        "stats": { "blanks": 18, "blobs": {}, "code": 51, "comments": 0 }
+      },
+      {
+        "name": "iredis/warning.py",
+        "stats": { "blanks": 14, "blobs": {}, "code": 44, "comments": 1 }
+      },
+      {
+        "name": "iredis/bottom.py",
+        "stats": { "blanks": 8, "blobs": {}, "code": 25, "comments": 2 }
+      },
+      {
+        "name": "iredis/lexer.py",
+        "stats": { "blanks": 12, "blobs": {}, "code": 85, "comments": 4 }
+      },
+      {
+        "name": "iredis/style.py",
+        "stats": { "blanks": 10, "blobs": {}, "code": 84, "comments": 6 }
+      },
+      {
+        "name": "iredis/config.py",
+        "stats": { "blanks": 25, "blobs": {}, "code": 93, "comments": 12 }
+      },
+      {
+        "name": "iredis/completers.py",
+        "stats": { "blanks": 56, "blobs": {}, "code": 286, "comments": 17 }
+      },
+      {
+        "name": "iredis/key_bindings.py",
+        "stats": { "blanks": 6, "blobs": {}, "code": 16, "comments": 0 }
+      },
+      {
+        "name": "iredis/entry.py",
+        "stats": { "blanks": 56, "blobs": {}, "code": 380, "comments": 23 }
+      },
+      {
+        "name": "iredis/renders.py",
+        "stats": { "blanks": 54, "blobs": {}, "code": 360, "comments": 15 }
+      },
+      {
+        "name": "iredis/utils.py",
+        "stats": { "blanks": 34, "blobs": {}, "code": 282, "comments": 10 }
+      },
+      {
+        "name": "iredis/client.py",
+        "stats": { "blanks": 69, "blobs": {}, "code": 603, "comments": 34 }
+      },
+      {
+        "name": "iredis/redis_grammar.py",
+        "stats": { "blanks": 21, "blobs": {}, "code": 591, "comments": 26 }
+      }
+    ]
+  },
+  "Total": {
+    "blanks": 3406,
+    "children": {
+      "Json": [
+        {
+          "name": "iredis/data/commands.json",
+          "stats": { "blanks": 0, "blobs": {}, "code": 5659, "comments": 0 }
+        }
+      ],
+      "Markdown": [
+        {
+          "name": "iredis/data/commands/brpoplpush.md",
+          "stats": { "blanks": 10, "blobs": {}, "code": 0, "comments": 18 }
+        },
+        {
+          "name": "iredis/data/commands/client-getname.md",
+          "stats": { "blanks": 2, "blobs": {}, "code": 0, "comments": 5 }
+        },
+        {
+          "name": "iredis/data/commands/bgrewriteaof.md",
+          "stats": { "blanks": 11, "blobs": {}, "code": 0, "comments": 26 }
+        },
+        {
+          "name": "iredis/data/commands/script-debug.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 21 }
+        },
+        {
+          "name": "iredis/data/commands/cluster-setslot.md",
+          "stats": { "blanks": 26, "blobs": {}, "code": 0, "comments": 107 }
+        },
+        {
+          "name": "iredis/data/commands/zscan.md",
+          "stats": { "blanks": 0, "blobs": {}, "code": 0, "comments": 1 }
+        },
+        {
+          "name": "iredis/data/commands/cluster-delslots.md",
+          "stats": { "blanks": 12, "blobs": {}, "code": 0, "comments": 35 }
+        },
+        {
+          "name": "iredis/data/commands/client-list.md",
+          "stats": { "blanks": 15, "blobs": {}, "code": 0, "comments": 73 }
+        },
+        {
+          "name": "iredis/data/commands/xpending.md",
+          "stats": { "blanks": 28, "blobs": {}, "code": 0, "comments": 112 }
+        },
+        {
+          "name": "iredis/data/commands/acl-whoami.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 10 }
+        },
+        {
+          "name": "iredis/data/commands/readonly.md",
+          "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 15 }
+        },
+        {
+          "name": "iredis/data/commands/geodist.md",
+          "stats": { "blanks": 10, "blobs": {}, "code": 0, "comments": 25 }
+        },
+        {
+          "name": "iredis/data/commands/incrbyfloat.md",
+          "stats": { "blanks": 10, "blobs": {}, "code": 0, "comments": 32 }
+        },
+        {
+          "name": "iredis/data/commands/set.md",
+          "stats": { "blanks": 26, "blobs": {}, "code": 0, "comments": 64 }
+        },
+        {
+          "name": "iredis/data/commands/zdiff.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 15 }
+        },
+        {
+          "name": "iredis/data/commands/pfadd.md",
+          "stats": { "blanks": 9, "blobs": {}, "code": 0, "comments": 24 }
+        },
+        {
+          "name": "iredis/data/commands/rpushx.md",
+          "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 16 }
+        },
+        {
+          "name": "iredis/data/commands/zpopmax.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 15 }
+        },
+        {
+          "name": "iredis/data/commands/incr.md",
+          "stats": { "blanks": 30, "blobs": {}, "code": 0, "comments": 126 }
+        },
+        {
+          "name": "iredis/data/commands/append.md",
+          "stats": { "blanks": 13, "blobs": {}, "code": 0, "comments": 42 }
+        },
+        {
+          "name": "iredis/data/commands/info.md",
+          "stats": { "blanks": 62, "blobs": {}, "code": 0, "comments": 329 }
+        },
+        {
+          "name": "iredis/data/commands/spop.md",
+          "stats": { "blanks": 13, "blobs": {}, "code": 0, "comments": 30 }
+        },
+        {
+          "name": "iredis/data/commands/zrangebyscore.md",
+          "stats": { "blanks": 27, "blobs": {}, "code": 0, "comments": 76 }
+        },
+        {
+          "name": "iredis/data/commands/watch.md",
+          "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 5 }
+        },
+        {
+          "name": "iredis/data/commands/xack.md",
+          "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 23 }
+        },
+        {
+          "name": "iredis/data/commands/punsubscribe.md",
+          "stats": { "blanks": 1, "blobs": {}, "code": 0, "comments": 5 }
+        },
+        {
+          "name": "iredis/data/commands/client-unpause.md",
+          "stats": { "blanks": 2, "blobs": {}, "code": 0, "comments": 4 }
+        },
+        {
+          "name": "iredis/data/commands/hget.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 10 }
+        },
+        {
+          "name": "iredis/data/commands/client-reply.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 16 }
+        },
+        {
+          "name": "iredis/data/commands/randomkey.md",
+          "stats": { "blanks": 2, "blobs": {}, "code": 0, "comments": 3 }
+        },
+        {
+          "name": "iredis/data/commands/hexists.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 11 }
+        },
+        {
+          "name": "iredis/data/commands/xtrim.md",
+          "stats": { "blanks": 21, "blobs": {}, "code": 0, "comments": 53 }
+        },
+        {
+          "name": "iredis/data/commands/sunionstore.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 16 }
+        },
+        {
+          "name": "iredis/data/commands/smove.md",
+          "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 21 }
+        },
+        {
+          "name": "iredis/data/commands/slowlog.md",
+          "stats": { "blanks": 20, "blobs": {}, "code": 0, "comments": 66 }
+        },
+        {
+          "name": "iredis/data/commands/acl-deluser.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 13 }
+        },
+        {
+          "name": "iredis/data/commands/renamenx.md",
+          "stats": { "blanks": 8, "blobs": {}, "code": 0, "comments": 19 }
+        },
+        {
+          "name": "iredis/data/commands/eval_ro.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 14 }
+        },
+        {
+          "name": "iredis/data/commands/zrevrangebylex.md",
+          "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 15 }
+        },
+        {
+          "name": "iredis/data/commands/slaveof.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 20 }
+        },
+        {
+          "name": "iredis/data/commands/cluster-info.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 51 }
+        },
+        {
+          "name": "iredis/data/commands/setex.md",
+          "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 20 }
+        },
+        {
+          "name": "iredis/data/commands/srandmember.md",
+          "stats": { "blanks": 19, "blobs": {}, "code": 0, "comments": 49 }
+        },
+        {
+          "name": "iredis/data/commands/select.md",
+          "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 21 }
+        },
+        {
+          "name": "iredis/data/commands/cluster-reset.md",
+          "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 23 }
+        },
+        {
+          "name": "iredis/data/commands/lrem.md",
+          "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 21 }
+        },
+        {
+          "name": "iredis/data/commands/lset.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 14 }
+        },
+        {
+          "name": "iredis/data/commands/brpop.md",
+          "stats": { "blanks": 9, "blobs": {}, "code": 0, "comments": 26 }
+        },
+        {
+          "name": "iredis/data/commands/script-flush.md",
+          "stats": { "blanks": 8, "blobs": {}, "code": 0, "comments": 15 }
+        },
+        {
+          "name": "iredis/data/commands/cluster-failover.md",
+          "stats": { "blanks": 18, "blobs": {}, "code": 0, "comments": 63 }
+        },
+        {
+          "name": "iredis/data/commands/monitor.md",
+          "stats": { "blanks": 20, "blobs": {}, "code": 0, "comments": 74 }
+        },
+        {
+          "name": "iredis/data/commands/srem.md",
+          "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 19 }
+        },
+        {
+          "name": "iredis/data/commands/hset.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 12 }
+        },
+        {
+          "name": "iredis/data/commands/bzpopmax.md",
+          "stats": { "blanks": 11, "blobs": {}, "code": 0, "comments": 30 }
+        },
+        {
+          "name": "iredis/data/commands/bitfield.md",
+          "stats": { "blanks": 36, "blobs": {}, "code": 0, "comments": 120 }
+        },
+        {
+          "name": "iredis/data/commands/sscan.md",
+          "stats": { "blanks": 0, "blobs": {}, "code": 0, "comments": 1 }
+        },
+        {
+          "name": "iredis/data/commands/publish.md",
+          "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 8 }
+        },
+        {
+          "name": "iredis/data/commands/ltrim.md",
+          "stats": { "blanks": 10, "blobs": {}, "code": 0, "comments": 32 }
+        },
+        {
+          "name": "iredis/data/commands/ping.md",
+          "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 14 }
+        },
+        {
+          "name": "iredis/data/commands/setnx.md",
+          "stats": { "blanks": 25, "blobs": {}, "code": 0, "comments": 77 }
+        },
+        {
+          "name": "iredis/data/commands/memory-doctor.md",
+          "stats": { "blanks": 2, "blobs": {}, "code": 0, "comments": 4 }
+        },
+        {
+          "name": "iredis/data/commands/rpush.md",
+          "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 20 }
+        },
+        {
+          "name": "iredis/data/commands/client-setname.md",
+          "stats": { "blanks": 9, "blobs": {}, "code": 0, "comments": 19 }
+        },
+        {
+          "name": "iredis/data/commands/pexpire.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 13 }
+        },
+        {
+          "name": "iredis/data/commands/stralgo.md",
+          "stats": { "blanks": 23, "blobs": {}, "code": 0, "comments": 98 }
+        },
+        {
+          "name": "iredis/data/commands/msetnx.md",
+          "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 17 }
+        },
+        {
+          "name": "iredis/data/commands/acl-users.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 11 }
+        },
+        {
+          "name": "iredis/data/commands/lpop.md",
+          "stats": { "blanks": 10, "blobs": {}, "code": 0, "comments": 19 }
+        },
+        {
+          "name": "iredis/data/commands/pfcount.md",
+          "stats": { "blanks": 21, "blobs": {}, "code": 0, "comments": 72 }
+        },
+        {
+          "name": "iredis/data/commands/zremrangebyrank.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 16 }
+        },
+        {
+          "name": "iredis/data/commands/pttl.md",
+          "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 17 }
+        },
+        {
+          "name": "iredis/data/commands/hvals.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 10 }
+        },
+        {
+          "name": "iredis/data/commands/echo.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 7 }
+        },
+        {
+          "name": "iredis/data/commands/lmove.md",
+          "stats": { "blanks": 18, "blobs": {}, "code": 0, "comments": 59 }
+        },
+        {
+          "name": "iredis/data/commands/migrate.md",
+          "stats": { "blanks": 19, "blobs": {}, "code": 0, "comments": 62 }
+        },
+        {
+          "name": "iredis/data/commands/script-kill.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 14 }
+        },
+        {
+          "name": "iredis/data/commands/restore.md",
+          "stats": { "blanks": 10, "blobs": {}, "code": 0, "comments": 31 }
+        },
+        {
+          "name": "iredis/data/commands/client-id.md",
+          "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 18 }
+        },
+        {
+          "name": "iredis/data/commands/get.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 11 }
+        },
+        {
+          "name": "iredis/data/commands/eval.md",
+          "stats": { "blanks": 206, "blobs": {}, "code": 0, "comments": 707 }
+        },
+        {
+          "name": "iredis/data/commands/zcard.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 11 }
+        },
+        {
+          "name": "iredis/data/commands/xlen.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 16 }
+        },
+        {
+          "name": "iredis/data/commands/hincrbyfloat.md",
+          "stats": { "blanks": 8, "blobs": {}, "code": 0, "comments": 25 }
+        },
+        {
+          "name": "iredis/data/commands/sdiff.md",
+          "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 22 }
+        },
+        {
+          "name": "iredis/data/commands/client-info.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 11 }
+        },
+        {
+          "name": "iredis/data/commands/getex.md",
+          "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 21 }
+        },
+        {
+          "name": "iredis/data/commands/bgsave.md",
+          "stats": { "blanks": 10, "blobs": {}, "code": 0, "comments": 18 }
+        },
+        {
+          "name": "iredis/data/commands/hgetall.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 12 }
+        },
+        {
+          "name": "iredis/data/commands/unwatch.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 5 }
+        },
+        {
+          "name": "iredis/data/commands/command-getkeys.md",
+          "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 15 }
+        },
+        {
+          "name": "iredis/data/commands/getrange.md",
+          "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 18 }
+        },
+        {
+          "name": "iredis/data/commands/command.md",
+          "stats": { "blanks": 39, "blobs": {}, "code": 0, "comments": 144 }
+        },
+        {
+          "name": "iredis/data/commands/hstrlen.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 12 }
+        },
+        {
+          "name": "iredis/data/commands/acl-getuser.md",
+          "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 27 }
+        },
+        {
+          "name": "iredis/data/commands/latency-help.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 6 }
+        },
+        {
+          "name": "iredis/data/commands/memory-purge.md",
+          "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 6 }
+        },
+        {
+          "name": "iredis/data/commands/rpoplpush.md",
+          "stats": { "blanks": 18, "blobs": {}, "code": 0, "comments": 56 }
+        },
+        {
+          "name": "iredis/data/commands/zrange.md",
+          "stats": { "blanks": 43, "blobs": {}, "code": 0, "comments": 116 }
+        },
+        {
+          "name": "iredis/data/commands/object.md",
+          "stats": { "blanks": 13, "blobs": {}, "code": 0, "comments": 67 }
+        },
+        {
+          "name": "iredis/data/commands/command-count.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 7 }
+        },
+        {
+          "name": "iredis/data/commands/rpop.md",
+          "stats": { "blanks": 10, "blobs": {}, "code": 0, "comments": 19 }
+        },
+        {
+          "name": "iredis/data/commands/hmget.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 13 }
+        },
+        {
+          "name": "iredis/data/commands/cluster-bumpepoch.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 11 }
+        },
+        {
+          "name": "iredis/data/commands/evalsha.md",
+          "stats": { "blanks": 0, "blobs": {}, "code": 0, "comments": 3 }
+        },
+        {
+          "name": "iredis/data/commands/zadd.md",
+          "stats": { "blanks": 26, "blobs": {}, "code": 0, "comments": 82 }
+        },
+        {
+          "name": "iredis/data/commands/xclaim.md",
+          "stats": { "blanks": 13, "blobs": {}, "code": 0, "comments": 71 }
+        },
+        {
+          "name": "iredis/data/commands/acl-genpass.md",
+          "stats": { "blanks": 8, "blobs": {}, "code": 0, "comments": 35 }
+        },
+        {
+          "name": "iredis/data/commands/mset.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 13 }
+        },
+        {
+          "name": "iredis/data/commands/ttl.md",
+          "stats": { "blanks": 8, "blobs": {}, "code": 0, "comments": 19 }
+        },
+        {
+          "name": "iredis/data/commands/zmscore.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 13 }
+        },
+        {
+          "name": "iredis/data/commands/geoadd.md",
+          "stats": { "blanks": 21, "blobs": {}, "code": 0, "comments": 57 }
+        },
+        {
+          "name": "iredis/data/commands/zscore.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 11 }
+        },
+        {
+          "name": "iredis/data/commands/hdel.md",
+          "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 17 }
+        },
+        {
+          "name": "iredis/data/commands/zunionstore.md",
+          "stats": { "blanks": 8, "blobs": {}, "code": 0, "comments": 30 }
+        },
+        {
+          "name": "iredis/data/commands/zcount.md",
+          "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 17 }
+        },
+        {
+          "name": "iredis/data/commands/zunion.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 16 }
+        },
+        {
+          "name": "iredis/data/commands/hscan.md",
+          "stats": { "blanks": 0, "blobs": {}, "code": 0, "comments": 1 }
+        },
+        {
+          "name": "iredis/data/commands/discard.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 6 }
+        },
+        {
+          "name": "iredis/data/commands/blpop.md",
+          "stats": { "blanks": 42, "blobs": {}, "code": 0, "comments": 144 }
+        },
+        {
+          "name": "iredis/data/commands/module-list.md",
+          "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 7 }
+        },
+        {
+          "name": "iredis/data/commands/dump.md",
+          "stats": { "blanks": 8, "blobs": {}, "code": 0, "comments": 22 }
+        },
+        {
+          "name": "iredis/data/commands/cluster-saveconfig.md",
+          "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 12 }
+        },
+        {
+          "name": "iredis/data/commands/geoencode.md",
+          "stats": { "blanks": 13, "blobs": {}, "code": 0, "comments": 44 }
+        },
+        {
+          "name": "iredis/data/commands/xinfo.md",
+          "stats": { "blanks": 23, "blobs": {}, "code": 0, "comments": 160 }
+        },
+        {
+          "name": "iredis/data/commands/sunion.md",
+          "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 21 }
+        },
+        {
+          "name": "iredis/data/commands/xautoclaim.md",
+          "stats": { "blanks": 13, "blobs": {}, "code": 0, "comments": 57 }
+        },
+        {
+          "name": "iredis/data/commands/zrank.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 17 }
+        },
+        {
+          "name": "iredis/data/commands/rename.md",
+          "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 19 }
+        },
+        {
+          "name": "iredis/data/commands/debug-segfault.md",
+          "stats": { "blanks": 2, "blobs": {}, "code": 0, "comments": 4 }
+        },
+        {
+          "name": "iredis/data/commands/hrandfield.md",
+          "stats": { "blanks": 13, "blobs": {}, "code": 0, "comments": 37 }
+        },
+        {
+          "name": "iredis/data/commands/zrangestore.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 10 }
+        },
+        {
+          "name": "iredis/data/commands/move.md",
+          "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 8 }
+        },
+        {
+          "name": "iredis/data/commands/xadd.md",
+          "stats": { "blanks": 25, "blobs": {}, "code": 0, "comments": 69 }
+        },
+        {
+          "name": "iredis/data/commands/zinter.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 16 }
+        },
+        {
+          "name": "iredis/data/commands/unsubscribe.md",
+          "stats": { "blanks": 1, "blobs": {}, "code": 0, "comments": 5 }
+        },
+        {
+          "name": "iredis/data/commands/client-pause.md",
+          "stats": { "blanks": 15, "blobs": {}, "code": 0, "comments": 47 }
+        },
+        {
+          "name": "iredis/data/commands/expire.md",
+          "stats": { "blanks": 45, "blobs": {}, "code": 0, "comments": 121 }
+        },
+        {
+          "name": "iredis/data/commands/memory-malloc-stats.md",
+          "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 6 }
+        },
+        {
+          "name": "iredis/data/commands/pubsub.md",
+          "stats": { "blanks": 16, "blobs": {}, "code": 0, "comments": 34 }
+        },
+        {
+          "name": "iredis/data/commands/xdel.md",
+          "stats": { "blanks": 9, "blobs": {}, "code": 0, "comments": 42 }
+        },
+        {
+          "name": "iredis/data/commands/debug-object.md",
+          "stats": { "blanks": 2, "blobs": {}, "code": 0, "comments": 4 }
+        },
+        {
+          "name": "iredis/data/commands/unlink.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 14 }
+        },
+        {
+          "name": "iredis/data/commands/config-resetstat.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 12 }
+        },
+        {
+          "name": "iredis/data/commands/psubscribe.md",
+          "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 6 }
+        },
+        {
+          "name": "iredis/data/commands/client-getredir.md",
+          "stats": { "blanks": 2, "blobs": {}, "code": 0, "comments": 11 }
+        },
+        {
+          "name": "iredis/data/commands/xgroup.md",
+          "stats": { "blanks": 25, "blobs": {}, "code": 0, "comments": 56 }
+        },
+        {
+          "name": "iredis/data/commands/geohash.md",
+          "stats": { "blanks": 9, "blobs": {}, "code": 0, "comments": 30 }
+        },
+        {
+          "name": "iredis/data/commands/geopos.md",
+          "stats": { "blanks": 8, "blobs": {}, "code": 0, "comments": 20 }
+        },
+        {
+          "name": "iredis/data/commands/cluster-replicate.md",
+          "stats": { "blanks": 8, "blobs": {}, "code": 0, "comments": 21 }
+        },
+        {
+          "name": "iredis/data/commands/getdel.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 12 }
+        },
+        {
+          "name": "iredis/data/commands/cluster-replicas.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 12 }
+        },
+        {
+          "name": "iredis/data/commands/setbit.md",
+          "stats": { "blanks": 30, "blobs": {}, "code": 0, "comments": 129 }
+        },
+        {
+          "name": "iredis/data/commands/smismember.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 12 }
+        },
+        {
+          "name": "iredis/data/commands/lpushx.md",
+          "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 16 }
+        },
+        {
+          "name": "iredis/data/commands/acl-help.md",
+          "stats": { "blanks": 2, "blobs": {}, "code": 0, "comments": 4 }
+        },
+        {
+          "name": "iredis/data/commands/scan.md",
+          "stats": { "blanks": 60, "blobs": {}, "code": 0, "comments": 281 }
+        },
+        {
+          "name": "iredis/data/commands/acl-setuser.md",
+          "stats": { "blanks": 22, "blobs": {}, "code": 0, "comments": 104 }
+        },
+        {
+          "name": "iredis/data/commands/sinterstore.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 16 }
+        },
+        {
+          "name": "iredis/data/commands/client-tracking.md",
+          "stats": { "blanks": 8, "blobs": {}, "code": 0, "comments": 48 }
+        },
+        {
+          "name": "iredis/data/commands/cluster-myid.md",
+          "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 5 }
+        },
+        {
+          "name": "iredis/data/commands/module-unload.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 8 }
+        },
+        {
+          "name": "iredis/data/commands/zrevrangebyscore.md",
+          "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 23 }
+        },
+        {
+          "name": "iredis/data/commands/smembers.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 10 }
+        },
+        {
+          "name": "iredis/data/commands/lolwut.md",
+          "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 29 }
+        },
+        {
+          "name": "iredis/data/commands/hmset.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 13 }
+        },
+        {
+          "name": "iredis/data/commands/sinter.md",
+          "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 24 }
+        },
+        {
+          "name": "iredis/data/commands/client-unblock.md",
+          "stats": { "blanks": 14, "blobs": {}, "code": 0, "comments": 49 }
+        },
+        {
+          "name": "iredis/data/commands/memory-help.md",
+          "stats": { "blanks": 2, "blobs": {}, "code": 0, "comments": 4 }
+        },
+        {
+          "name": "iredis/data/commands/xread.md",
+          "stats": { "blanks": 42, "blobs": {}, "code": 0, "comments": 168 }
+        },
+        {
+          "name": "iredis/data/commands/mget.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 11 }
+        },
+        {
+          "name": "iredis/data/commands/acl-load.md",
+          "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 20 }
+        },
+        {
+          "name": "iredis/data/commands/touch.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 9 }
+        },
+        {
+          "name": "iredis/data/commands/command-info.md",
+          "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 12 }
+        },
+        {
+          "name": "iredis/data/commands/cluster-slots.md",
+          "stats": { "blanks": 13, "blobs": {}, "code": 0, "comments": 89 }
+        },
+        {
+          "name": "iredis/data/commands/lpush.md",
+          "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 20 }
+        },
+        {
+          "name": "iredis/data/commands/script-load.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 13 }
+        },
+        {
+          "name": "iredis/data/commands/psync.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 9 }
+        },
+        {
+          "name": "iredis/data/commands/cluster-forget.md",
+          "stats": { "blanks": 15, "blobs": {}, "code": 0, "comments": 44 }
+        },
+        {
+          "name": "iredis/data/commands/xreadgroup.md",
+          "stats": { "blanks": 33, "blobs": {}, "code": 0, "comments": 114 }
+        },
+        {
+          "name": "iredis/data/commands/memory-stats.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 45 }
+        },
+        {
+          "name": "iredis/data/commands/hkeys.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 10 }
+        },
+        {
+          "name": "iredis/data/commands/blmove.md",
+          "stats": { "blanks": 8, "blobs": {}, "code": 0, "comments": 15 }
+        },
+        {
+          "name": "iredis/data/commands/linsert.md",
+          "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 15 }
+        },
+        {
+          "name": "iredis/data/commands/zpopmin.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 15 }
+        },
+        {
+          "name": "iredis/data/commands/hincrby.md",
+          "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 16 }
+        },
+        {
+          "name": "iredis/data/commands/xrange.md",
+          "stats": { "blanks": 44, "blobs": {}, "code": 0, "comments": 181 }
+        },
+        {
+          "name": "iredis/data/commands/reset.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 19 }
+        },
+        {
+          "name": "iredis/data/commands/multi.md",
+          "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 5 }
+        },
+        {
+          "name": "iredis/data/commands/config-get.md",
+          "stats": { "blanks": 12, "blobs": {}, "code": 0, "comments": 40 }
+        },
+        {
+          "name": "iredis/data/commands/pexpireat.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 13 }
+        },
+        {
+          "name": "iredis/data/commands/llen.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 11 }
+        },
+        {
+          "name": "iredis/data/commands/geosearchstore.md",
+          "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 8 }
+        },
+        {
+          "name": "iredis/data/commands/wait.md",
+          "stats": { "blanks": 16, "blobs": {}, "code": 0, "comments": 59 }
+        },
+        {
+          "name": "iredis/data/commands/script-exists.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 14 }
+        },
+        {
+          "name": "iredis/data/commands/lastsave.md",
+          "stats": { "blanks": 2, "blobs": {}, "code": 0, "comments": 6 }
+        },
+        {
+          "name": "iredis/data/commands/bitpos.md",
+          "stats": { "blanks": 15, "blobs": {}, "code": 0, "comments": 45 }
+        },
+        {
+          "name": "iredis/data/commands/replicaof.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 16 }
+        },
+        {
+          "name": "iredis/data/commands/persist.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 15 }
+        },
+        {
+          "name": "iredis/data/commands/zremrangebyscore.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 14 }
+        },
+        {
+          "name": "iredis/data/commands/quit.md",
+          "stats": { "blanks": 2, "blobs": {}, "code": 0, "comments": 4 }
+        },
+        {
+          "name": "iredis/data/commands/cluster-nodes.md",
+          "stats": { "blanks": 29, "blobs": {}, "code": 0, "comments": 119 }
+        },
+        {
+          "name": "iredis/data/commands/exec.md",
+          "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 10 }
+        },
+        {
+          "name": "iredis/data/commands/cluster-flushslots.md",
+          "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 5 }
+        },
+        {
+          "name": "iredis/data/commands/sort.md",
+          "stats": { "blanks": 35, "blobs": {}, "code": 0, "comments": 101 }
+        },
+        {
+          "name": "iredis/data/commands/swapdb.md",
+          "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 13 }
+        },
+        {
+          "name": "iredis/data/commands/expiretime.md",
+          "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 16 }
+        },
+        {
+          "name": "iredis/data/commands/zrevrank.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 17 }
+        },
+        {
+          "name": "iredis/data/commands/client-trackinginfo.md",
+          "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 22 }
+        },
+        {
+          "name": "iredis/data/commands/type.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 14 }
+        },
+        {
+          "name": "iredis/data/commands/xrevrange.md",
+          "stats": { "blanks": 11, "blobs": {}, "code": 0, "comments": 30 }
+        },
+        {
+          "name": "iredis/data/commands/cluster-meet.md",
+          "stats": { "blanks": 13, "blobs": {}, "code": 0, "comments": 42 }
+        },
+        {
+          "name": "iredis/data/commands/incrby.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 12 }
+        },
+        {
+          "name": "iredis/data/commands/latency-latest.md",
+          "stats": { "blanks": 10, "blobs": {}, "code": 0, "comments": 28 }
+        },
+        {
+          "name": "iredis/data/commands/role.md",
+          "stats": { "blanks": 26, "blobs": {}, "code": 0, "comments": 79 }
+        },
+        {
+          "name": "iredis/data/commands/acl-save.md",
+          "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 14 }
+        },
+        {
+          "name": "iredis/data/commands/sismember.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 11 }
+        },
+        {
+          "name": "iredis/data/commands/zrandmember.md",
+          "stats": { "blanks": 13, "blobs": {}, "code": 0, "comments": 37 }
+        },
+        {
+          "name": "iredis/data/commands/flushall.md",
+          "stats": { "blanks": 8, "blobs": {}, "code": 0, "comments": 18 }
+        },
+        {
+          "name": "iredis/data/commands/geodecode.md",
+          "stats": { "blanks": 9, "blobs": {}, "code": 0, "comments": 25 }
+        },
+        {
+          "name": "iredis/data/commands/decrby.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 12 }
+        },
+        {
+          "name": "iredis/data/commands/setrange.md",
+          "stats": { "blanks": 11, "blobs": {}, "code": 0, "comments": 36 }
+        },
+        {
+          "name": "iredis/data/commands/bzpopmin.md",
+          "stats": { "blanks": 11, "blobs": {}, "code": 0, "comments": 30 }
+        },
+        {
+          "name": "iredis/data/commands/client-kill.md",
+          "stats": { "blanks": 21, "blobs": {}, "code": 0, "comments": 56 }
+        },
+        {
+          "name": "iredis/data/commands/readwrite.md",
+          "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 7 }
+        },
+        {
+          "name": "iredis/data/commands/hlen.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 9 }
+        },
+        {
+          "name": "iredis/data/commands/expireat.md",
+          "stats": { "blanks": 9, "blobs": {}, "code": 0, "comments": 22 }
+        },
+        {
+          "name": "iredis/data/commands/module-load.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 9 }
+        },
+        {
+          "name": "iredis/data/commands/cluster-getkeysinslot.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 16 }
+        },
+        {
+          "name": "iredis/data/commands/shutdown.md",
+          "stats": { "blanks": 13, "blobs": {}, "code": 0, "comments": 49 }
+        },
+        {
+          "name": "iredis/data/commands/zrem.md",
+          "stats": { "blanks": 8, "blobs": {}, "code": 0, "comments": 18 }
+        },
+        {
+          "name": "iredis/data/commands/latency-history.md",
+          "stats": { "blanks": 11, "blobs": {}, "code": 0, "comments": 36 }
+        },
+        {
+          "name": "iredis/data/commands/failover.md",
+          "stats": { "blanks": 16, "blobs": {}, "code": 0, "comments": 68 }
+        },
+        {
+          "name": "iredis/data/commands/flushdb.md",
+          "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 13 }
+        },
+        {
+          "name": "iredis/data/commands/config-set.md",
+          "stats": { "blanks": 14, "blobs": {}, "code": 0, "comments": 42 }
+        },
+        {
+          "name": "iredis/data/commands/acl-cat.md",
+          "stats": { "blanks": 9, "blobs": {}, "code": 0, "comments": 75 }
+        },
+        {
+          "name": "iredis/data/commands/cluster-countkeysinslot.md",
+          "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 10 }
+        },
+        {
+          "name": "iredis/data/commands/copy.md",
+          "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 17 }
+        },
+        {
+          "name": "iredis/data/commands/bitop.md",
+          "stats": { "blanks": 19, "blobs": {}, "code": 0, "comments": 42 }
+        },
+        {
+          "name": "iredis/data/commands/cluster-count-failure-reports.md",
+          "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 28 }
+        },
+        {
+          "name": "iredis/data/commands/lrange.md",
+          "stats": { "blanks": 9, "blobs": {}, "code": 0, "comments": 28 }
+        },
+        {
+          "name": "iredis/data/commands/getset.md",
+          "stats": { "blanks": 8, "blobs": {}, "code": 0, "comments": 25 }
+        },
+        {
+          "name": "iredis/data/commands/keys.md",
+          "stats": { "blanks": 10, "blobs": {}, "code": 0, "comments": 27 }
+        },
+        {
+          "name": "iredis/data/commands/config-rewrite.md",
+          "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 30 }
+        },
+        {
+          "name": "iredis/data/commands/subscribe.md",
+          "stats": { "blanks": 3, "blobs": {}, "code": 0, "comments": 6 }
+        },
+        {
+          "name": "iredis/data/commands/del.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 9 }
+        },
+        {
+          "name": "iredis/data/commands/pfmerge.md",
+          "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 16 }
+        },
+        {
+          "name": "iredis/data/commands/zremrangebylex.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 17 }
+        },
+        {
+          "name": "iredis/data/commands/cluster-keyslot.md",
+          "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 26 }
+        },
+        {
+          "name": "iredis/data/commands/strlen.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 11 }
+        },
+        {
+          "name": "iredis/data/commands/pexpiretime.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 14 }
+        },
+        {
+          "name": "iredis/data/commands/zinterstore.md",
+          "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 23 }
+        },
+        {
+          "name": "iredis/data/commands/decr.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 14 }
+        },
+        {
+          "name": "iredis/data/commands/zincrby.md",
+          "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 19 }
+        },
+        {
+          "name": "iredis/data/commands/geosearch.md",
+          "stats": { "blanks": 17, "blobs": {}, "code": 0, "comments": 60 }
+        },
+        {
+          "name": "iredis/data/commands/zlexcount.md",
+          "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 17 }
+        },
+        {
+          "name": "iredis/data/commands/cluster-addslots.md",
+          "stats": { "blanks": 15, "blobs": {}, "code": 0, "comments": 40 }
+        },
+        {
+          "name": "iredis/data/commands/evalsha_ro.md",
+          "stats": { "blanks": 1, "blobs": {}, "code": 0, "comments": 5 }
+        },
+        {
+          "name": "iredis/data/commands/scard.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 10 }
+        },
+        {
+          "name": "iredis/data/commands/georadius.md",
+          "stats": { "blanks": 27, "blobs": {}, "code": 0, "comments": 85 }
+        },
+        {
+          "name": "iredis/data/commands/acl-log.md",
+          "stats": { "blanks": 9, "blobs": {}, "code": 0, "comments": 32 }
+        },
+        {
+          "name": "iredis/data/commands/georadiusbymember.md",
+          "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 18 }
+        },
+        {
+          "name": "iredis/data/commands/sdiffstore.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 16 }
+        },
+        {
+          "name": "iredis/data/commands/lpos.md",
+          "stats": { "blanks": 21, "blobs": {}, "code": 0, "comments": 78 }
+        },
+        {
+          "name": "iredis/data/commands/memory-usage.md",
+          "stats": { "blanks": 9, "blobs": {}, "code": 0, "comments": 31 }
+        },
+        {
+          "name": "iredis/data/commands/latency-reset.md",
+          "stats": { "blanks": 8, "blobs": {}, "code": 0, "comments": 28 }
+        },
+        {
+          "name": "iredis/data/commands/dbsize.md",
+          "stats": { "blanks": 2, "blobs": {}, "code": 0, "comments": 3 }
+        },
+        {
+          "name": "iredis/data/commands/latency-doctor.md",
+          "stats": { "blanks": 13, "blobs": {}, "code": 0, "comments": 34 }
+        },
+        {
+          "name": "iredis/data/commands/hello.md",
+          "stats": { "blanks": 13, "blobs": {}, "code": 0, "comments": 60 }
+        },
+        {
+          "name": "iredis/data/commands/cluster-slaves.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 17 }
+        },
+        {
+          "name": "iredis/data/commands/psetex.md",
+          "stats": { "blanks": 2, "blobs": {}, "code": 0, "comments": 8 }
+        },
+        {
+          "name": "iredis/data/commands/save.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 12 }
+        },
+        {
+          "name": "iredis/data/commands/sadd.md",
+          "stats": { "blanks": 7, "blobs": {}, "code": 0, "comments": 17 }
+        },
+        {
+          "name": "iredis/data/commands/sync.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 10 }
+        },
+        {
+          "name": "iredis/data/commands/zrangebylex.md",
+          "stats": { "blanks": 16, "blobs": {}, "code": 0, "comments": 53 }
+        },
+        {
+          "name": "iredis/data/commands/hsetnx.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 13 }
+        },
+        {
+          "name": "iredis/data/commands/cluster-set-config-epoch.md",
+          "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 19 }
+        },
+        {
+          "name": "iredis/data/commands/zrevrange.md",
+          "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 18 }
+        },
+        {
+          "name": "iredis/data/commands/client-caching.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 15 }
+        },
+        {
+          "name": "iredis/data/commands/exists.md",
+          "stats": { "blanks": 9, "blobs": {}, "code": 0, "comments": 24 }
+        },
+        {
+          "name": "iredis/data/commands/auth.md",
+          "stats": { "blanks": 15, "blobs": {}, "code": 0, "comments": 31 }
+        },
+        {
+          "name": "iredis/data/commands/lindex.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 17 }
+        },
+        {
+          "name": "iredis/data/commands/bitcount.md",
+          "stats": { "blanks": 19, "blobs": {}, "code": 0, "comments": 47 }
+        },
+        {
+          "name": "iredis/data/commands/time.md",
+          "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 14 }
+        },
+        {
+          "name": "iredis/data/commands/zdiffstore.md",
+          "stats": { "blanks": 6, "blobs": {}, "code": 0, "comments": 18 }
+        },
+        {
+          "name": "iredis/data/commands/acl-list.md",
+          "stats": { "blanks": 4, "blobs": {}, "code": 0, "comments": 13 }
+        },
+        {
+          "name": "iredis/data/commands/latency-graph.md",
+          "stats": { "blanks": 12, "blobs": {}, "code": 0, "comments": 56 }
+        },
+        {
+          "name": "iredis/data/commands/getbit.md",
+          "stats": { "blanks": 5, "blobs": {}, "code": 0, "comments": 14 }
+        }
+      ],
+      "Python": [
+        {
+          "name": "iredis/commands.py",
+          "stats": { "blanks": 19, "blobs": {}, "code": 123, "comments": 8 }
+        },
+        {
+          "name": "iredis/data/commands/__init__.py",
+          "stats": { "blanks": 0, "blobs": {}, "code": 0, "comments": 0 }
+        },
+        {
+          "name": "iredis/data/__init__.py",
+          "stats": { "blanks": 0, "blobs": {}, "code": 0, "comments": 0 }
+        },
+        {
+          "name": "iredis/exceptions.py",
+          "stats": { "blanks": 10, "blobs": {}, "code": 12, "comments": 0 }
+        },
+        {
+          "name": "iredis/processors.py",
+          "stats": { "blanks": 17, "blobs": {}, "code": 59, "comments": 3 }
+        },
+        {
+          "name": "iredis/__init__.py",
+          "stats": { "blanks": 0, "blobs": {}, "code": 1, "comments": 0 }
+        },
+        {
+          "name": "iredis/markdown.py",
+          "stats": { "blanks": 18, "blobs": {}, "code": 51, "comments": 0 }
+        },
+        {
+          "name": "iredis/warning.py",
+          "stats": { "blanks": 14, "blobs": {}, "code": 44, "comments": 1 }
+        },
+        {
+          "name": "iredis/bottom.py",
+          "stats": { "blanks": 8, "blobs": {}, "code": 25, "comments": 2 }
+        },
+        {
+          "name": "iredis/lexer.py",
+          "stats": { "blanks": 12, "blobs": {}, "code": 85, "comments": 4 }
+        },
+        {
+          "name": "iredis/style.py",
+          "stats": { "blanks": 10, "blobs": {}, "code": 84, "comments": 6 }
+        },
+        {
+          "name": "iredis/config.py",
+          "stats": { "blanks": 25, "blobs": {}, "code": 93, "comments": 12 }
+        },
+        {
+          "name": "iredis/completers.py",
+          "stats": { "blanks": 56, "blobs": {}, "code": 286, "comments": 17 }
+        },
+        {
+          "name": "iredis/key_bindings.py",
+          "stats": { "blanks": 6, "blobs": {}, "code": 16, "comments": 0 }
+        },
+        {
+          "name": "iredis/entry.py",
+          "stats": { "blanks": 56, "blobs": {}, "code": 380, "comments": 23 }
+        },
+        {
+          "name": "iredis/renders.py",
+          "stats": { "blanks": 54, "blobs": {}, "code": 360, "comments": 15 }
+        },
+        {
+          "name": "iredis/utils.py",
+          "stats": { "blanks": 34, "blobs": {}, "code": 282, "comments": 10 }
+        },
+        {
+          "name": "iredis/client.py",
+          "stats": { "blanks": 69, "blobs": {}, "code": 603, "comments": 34 }
+        },
+        {
+          "name": "iredis/redis_grammar.py",
+          "stats": { "blanks": 21, "blobs": {}, "code": 591, "comments": 26 }
+        }
+      ]
+    },
+    "code": 8754,
+    "comments": 10012,
+    "inaccurate": false,
+    "reports": []
+  }
+}

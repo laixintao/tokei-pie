@@ -50,9 +50,6 @@ def draw(sectors, to_html):
     colors = []
     for s in sectors:
         logger.debug("sector: {}".format(s))
-        if not s.label:
-            # '' splited by root path
-            continue
         ids.append(s.id)
         labels.append(s.label)
         parents.append(s.parent_id)
