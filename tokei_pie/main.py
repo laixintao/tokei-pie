@@ -216,7 +216,12 @@ def main():
         setup_logs(logging.DEBUG)
 
     start = time.time()
-    data = json.load(sys.stdin)
+    try:
+        data = json.load(sys.stdin)
+    except json.decoder.JSONDecodeError:
+        print("Stdin is not json, please pass json output to tokei-pie: tokei -o json | tokei-pie", file=sys.stderr)
+        sys.exit(128)
+
     load_time = time.time()
     logger.info("load json file done, took {:.2f}s".format(load_time - start))
     sectors = read_root(data)
