@@ -93,10 +93,10 @@ def build_file_tree(reports):
     tree = {}
     for report in reports:
         full_filename = report["name"]
-        pathes = full_filename.split("/")
+        pathes = full_filename.split(os.sep)
         last = "."
         for path in pathes[1:]:
-            current = last + "/" + path
+            current = last + os.sep + path
             tree.setdefault(last, set()).add(current)
             last = current
     return tree
@@ -116,11 +116,11 @@ def convert2sectors(dirs, reports, language):
             is_file = item not in flat_dirs
             if is_file:
                 stats = reports[item]
-                base_dirs = item.split("/")
+                base_dirs = item.split(os.sep)
                 filename = base_dirs[-1]
                 base_dirs[0] = language
-                parent_id = "/".join(base_dirs[:-1])
-                myid = "/".join(base_dirs)
+                parent_id = os.sep.join(base_dirs[:-1])
+                myid = os.sep.join(base_dirs)
                 sectors.append(
                     Sector(
                         id=item,
@@ -146,11 +146,11 @@ def convert2sectors(dirs, reports, language):
 
         if dirname == ".":
             return 0, 0, 0
-        base_dirs = dirname.split("/")
+        base_dirs = dirname.split(os.sep)
         filename = base_dirs[-1]
         base_dirs[0] = language
-        parent_id = "/".join(base_dirs[:-1])
-        myid = "/".join(base_dirs)
+        parent_id = os.sep.join(base_dirs[:-1])
+        myid = os.sep.join(base_dirs)
         sectors.append(
             Sector(
                 id=myid,
@@ -234,3 +234,6 @@ def main():
     logger.info(
         "draw sunburst chart done, took {:.2f}s".format(draw_time - parse_file_time)
     )
+
+if __name__ == "__main__":
+    main()
