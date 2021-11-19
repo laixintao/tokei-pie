@@ -24,7 +24,7 @@ HOVER_TEMPLATE = "code: {}</br>comments: {}</br>blanks: {}</br>"
 
 colors_raw = json.load(open(os.path.dirname(__file__) + "/colors.json", "r"))
 # from: https://github.com/ozh/github-colors/blob/master/colors.json
-LANGCOLOR = {k.lower(): v['color'] for k, v in colors_raw.items()}
+LANGCOLOR = {k.lower(): v["color"] for k, v in colors_raw.items()}
 
 
 @dataclass
@@ -41,7 +41,7 @@ class Sector:
     inaccurate: bool = False
 
 
-def draw(sectors):
+def draw(sectors, to_html):
     ids = []
     labels = []
     parents = []
@@ -79,10 +79,13 @@ def draw(sectors):
         )
     )
     fig.update_layout(
-        margin=dict(t=10, l=0, r=0, b=0), title="tokei-pie source code chart"
+        margin=dict(t=30, l=0, r=0, b=0), title="tokei-pie source code chart"
     )
 
-    fig.show()
+    if to_html:
+        fig.write_html(to_html)
+    else:
+        fig.show()
 
 
 def build_file_tree(reports):
@@ -198,6 +201,12 @@ def read_root(data):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("-v", "--verbose", action="count", default=0)
+    parser.add_argument(
+        "-o",
+        "--output-html",
+        metavar="filename",
+        help="write chart to html instead of open your browser to display",
+    )
     args = parser.parse_args()
     if args.verbose == 0:
         pass
@@ -215,7 +224,7 @@ def main():
     logger.info(
         "parse tokei data done, took {:.2f}s".format(parse_file_time - load_time)
     )
-    draw(sectors)
+    draw(sectors, args.output_html)
     draw_time = time.time()
     logger.info(
         "draw sunburst chart done, took {:.2f}s".format(draw_time - parse_file_time)
