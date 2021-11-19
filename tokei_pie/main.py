@@ -49,14 +49,15 @@ def draw(sectors, to_html):
     hover_texts = []
     colors = []
     for s in sectors:
+        logger.debug("sector: {}".format(s))
+        if not s.label:
+            # '' splited by root path
+            continue
         ids.append(s.id)
         labels.append(s.label)
         parents.append(s.parent_id)
-        logger.debug(f"{s.code} {s.blanks} {s.comments}")
-
         values.append(s.code + s.comments + s.blanks)
         hover_texts.append(HOVER_TEMPLATE.format(s.code, s.comments, s.blanks))
-        logger.debug("sector: {}".format(s))
         lang = s.lang_type
         colors.append(LANGCOLOR.get(lang.lower()))
 
@@ -94,7 +95,7 @@ def build_file_tree(reports):
     for report in reports:
         full_filename = report["name"]
         pathes = full_filename.split(os.sep)
-        last = "."
+        last = pathes[0]
         for path in pathes[1:]:
             current = last + os.sep + path
             tree.setdefault(last, set()).add(current)
@@ -117,9 +118,9 @@ def convert2sectors(dirs, reports, language):
             if is_file:
                 stats = reports[item]
                 base_dirs = item.split(os.sep)
-                filename = base_dirs[-1]
-                base_dirs[0] = language
+                base_dirs.insert(0, language)
                 parent_id = os.sep.join(base_dirs[:-1])
+                filename = base_dirs[-1]
                 myid = os.sep.join(base_dirs)
                 sectors.append(
                     Sector(
@@ -144,11 +145,9 @@ def convert2sectors(dirs, reports, language):
                 code += _code
                 comments += _comments
 
-        if dirname == ".":
-            return 0, 0, 0
         base_dirs = dirname.split(os.sep)
         filename = base_dirs[-1]
-        base_dirs[0] = language
+        base_dirs.insert(0, language)
         parent_id = os.sep.join(base_dirs[:-1])
         myid = os.sep.join(base_dirs)
         sectors.append(
@@ -165,13 +164,14 @@ def convert2sectors(dirs, reports, language):
         return blanks, code, comments
 
     sectors = []
-    dir2sector(".", dirs, reports, sectors, language)
+    head = list(dirs.keys())[0]
+    dir2sector(head, dirs, reports, sectors, language)
     return sectors
 
 
 def read_reports(reports, parent_id):
     tree = build_file_tree(reports)
-    logger.debug(f"get tree: {tree}")
+    logger.debug(f"get tree for {parent_id}: {tree}")
     dict_reports = {i["name"]: i["stats"] for i in reports}
     sectors = convert2sectors(tree, dict_reports, parent_id)
     return sectors
@@ -219,7 +219,10 @@ def main():
     try:
         data = json.load(sys.stdin)
     except json.decoder.JSONDecodeError:
-        print("Stdin is not json, please pass tokei's json output to tokei-pie, like this: tokei -o json | tokei-pie", file=sys.stderr)
+        print(
+            "Stdin is not json, please pass tokei's json output to tokei-pie, like this: tokei -o json | tokei-pie",
+            file=sys.stderr,
+        )
         sys.exit(128)
 
     load_time = time.time()
@@ -234,6 +237,7 @@ def main():
     logger.info(
         "draw sunburst chart done, took {:.2f}s".format(draw_time - parse_file_time)
     )
+
 
 if __name__ == "__main__":
     main()
