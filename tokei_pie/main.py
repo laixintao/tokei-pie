@@ -219,7 +219,7 @@ def main():
     try:
         data = json.load(sys.stdin)
     except json.decoder.JSONDecodeError:
-        print("Stdin is not json, please pass json output to tokei-pie: tokei -o json | tokei-pie", file=sys.stderr)
+        print("Stdin is not json, please pass tokei's json output to tokei-pie, like this: tokei -o json | tokei-pie", file=sys.stderr)
         sys.exit(128)
 
     load_time = time.time()
