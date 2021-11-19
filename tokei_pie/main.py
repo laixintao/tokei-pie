@@ -115,8 +115,6 @@ def convert2sectors(dirs, reports, language):
         for item in subdirs:
             is_file = item not in flat_dirs
             if is_file:
-                if sys.platform.startswith("win"):
-                    item = "C:" + item[1:]
                 stats = reports[item]
                 base_dirs = item.split(os.sep)
                 filename = base_dirs[-1]
@@ -236,3 +234,6 @@ def main():
     logger.info(
         "draw sunburst chart done, took {:.2f}s".format(draw_time - parse_file_time)
     )
+
+if __name__ == "__main__":
+    main()
