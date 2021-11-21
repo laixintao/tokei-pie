@@ -164,7 +164,7 @@ def convert2sectors(dirs, reports, language):
         return blanks, code, comments
 
     sectors = []
-    head = list(dirs.keys())[0]
+    head = "."
     dir2sector(head, dirs, reports, sectors, language)
     return sectors
 
