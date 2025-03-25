@@ -5,7 +5,10 @@ import argparse
 import logging
 import sys
 import plotly.graph_objects as go
+
+from collections import defaultdict
 from dataclasses import dataclass
+from functools import reduce
 
 
 def setup_logs(level):
@@ -198,6 +201,43 @@ def read_root(data):
     return sectors
 
 
+def remove_lang_from_key(sector: Sector) -> Sector:
+    return Sector(
+        id=os.sep.join(sector.id.split(os.sep)[1:]),
+        label=sector.label,
+        parent_id=os.sep.join(sector.parent_id.split(os.sep)[1:]),
+        lang_type=sector.lang_type,
+        code=sector.code,
+        blanks=sector.blanks,
+        comments=sector.comments,
+        inaccurate=sector.inaccurate,
+    )
+
+
+def merge_sectors(left: Sector, right: Sector) -> Sector:
+    assert left.id == right.id
+    return Sector(
+        id=left.id,
+        label=left.label,
+        parent_id=left.parent_id,
+        lang_type=left.lang_type if left.code >= right.code else right.lang_type,
+        code=left.code + right.code,
+        blanks=left.blanks + right.blanks,
+        comments=left.comments + right.comments,
+        inaccurate=left.inaccurate or right.inaccurate,
+    )
+
+
+def merge_sector_langs(sectors: list[Sector]) -> list[Sector]:
+    keyed_sectors = defaultdict(lambda: [])
+    for sector in map(remove_lang_from_key, sectors):
+        keyed_sectors[sector.id].append(sector)
+    return [
+        reduce(merge_sectors, sectors)
+        for sectors in keyed_sectors.values()
+    ]
+
+
 def common_prefix(prefixes, strings):
     passed = current_prefix = ""
     for prefix in prefixes:
@@ -233,6 +273,11 @@ def main():
         metavar="filename",
         help="write chart to html instead of open your browser to display",
     )
+    parser.add_argument(
+        "--no-langs",
+        help="don't split directories by language, show aggregate directory sizes",
+        action="store_true"
+    )
     args = parser.parse_args()
     if args.verbose == 0:
         pass
@@ -255,6 +300,8 @@ def main():
     load_time = time.time()
     logger.info("load json file done, took {:.2f}s".format(load_time - start))
     sectors = read_root(data)
+    if args.no_langs:
+        sectors = merge_sector_langs(sectors)
     parse_file_time = time.time()
     logger.info(
         "parse tokei data done, took {:.2f}s".format(parse_file_time - load_time)
