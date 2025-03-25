@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tokei-pie"
-version = "1.2.0"
+version = "1.2.1"
 description = "Draw a pie chart for tokei output."
 authors = ["laixintao <laixintaoo@gmail.com>"]
 readme = 'readme.md'
@@ -17,5 +17,5 @@ pytest = "^6.2.5"
 tokei-pie = 'tokei_pie.main:main'
 
 [build-system]
-requires = ["poetry-core>=1.2.0"]
+requires = ["poetry-core>=1.2.1"]
 build-backend = "poetry.core.masonry.api"
