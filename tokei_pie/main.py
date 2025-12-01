@@ -44,7 +44,7 @@ class Sector:
     inaccurate: bool = False
 
 
-def draw(sectors, to_html):
+def draw(sectors, to_html, maxdepth=-1):
     ids = []
     labels = []
     parents = []
@@ -77,6 +77,7 @@ def draw(sectors, to_html):
             branchvalues="total",
             hovertext=hover_texts,
             marker=dict(colors=colors, autocolorscale=True),
+            maxdepth=maxdepth,
         )
     )
     fig.update_layout(
@@ -278,6 +279,13 @@ def main():
         help="don't split directories by language, show aggregate directory sizes",
         action="store_true"
     )
+    parser.add_argument(
+        "--max-depth",
+        type=int,
+        metavar="N",
+        default=-1,
+        help="limit the depth of the sunburst chart (default: -1 for all levels)",
+    )
     args = parser.parse_args()
     if args.verbose == 0:
         pass
@@ -306,7 +314,7 @@ def main():
     logger.info(
         "parse tokei data done, took {:.2f}s".format(parse_file_time - load_time)
     )
-    draw(sectors, args.output_html)
+    draw(sectors, args.output_html, maxdepth=args.max_depth)
     draw_time = time.time()
     logger.info(
         "draw sunburst chart done, took {:.2f}s".format(draw_time - parse_file_time)
