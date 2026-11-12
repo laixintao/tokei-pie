@@ -248,10 +248,34 @@ def common_prefix(prefixes, strings):
         passed = current_prefix
 
 
+def load_stdin_json():
+    """Parse tokei's json output read from stdin.
+
+    tokei always emits UTF-8, so the raw bytes are decoded explicitly here
+    rather than relying on text-mode ``sys.stdin``. Text mode uses the locale
+    encoding (cp936 on Chinese Windows, cp1252 on Western Windows, ...), and
+    decoding UTF-8 bytes with one of those codepages turns every byte sequence
+    that is invalid there into a lone surrogate. Those survive json.loads()
+    unnoticed and only blow up much later inside plotly:
+
+        TypeError: str is not valid UTF-8: surrogates not allowed
+
+    so any project containing non-ASCII filenames fails to be plotted.
+    """
+    return json.loads(sys.stdin.buffer.read().decode("utf-8"))
+
+
 def pre_parse_data(data):
     reports = []
     for value in data.values():
         reports.extend(t["name"] for t in value.get("reports"))
+
+    if not reports:
+        print(
+            "No source files found in tokei's output: nothing to draw.",
+            file=sys.stderr,
+        )
+        sys.exit(129)
 
     one = reports[0]
     pathes = one.split(os.sep)
@@ -296,10 +320,16 @@ def main():
 
     start = time.time()
     try:
-        data = json.load(sys.stdin)
+        data = load_stdin_json()
     except json.decoder.JSONDecodeError:
         print(
             "Stdin is not json, please pass tokei's json output to tokei-pie, like this: tokei -o json | tokei-pie",
+            file=sys.stderr,
+        )
+        sys.exit(128)
+    except UnicodeDecodeError:
+        print(
+            "Stdin is not valid UTF-8, please pass tokei's json output to tokei-pie, like this: tokei -o json | tokei-pie",
             file=sys.stderr,
         )
         sys.exit(128)

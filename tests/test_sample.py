@@ -2,10 +2,14 @@ import json
 import os
 import sys
 import unittest
+import io
+import types
+from unittest import mock
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from tokei_pie.main import (
+    load_stdin_json,
     Sector,
     build_file_tree,
     common_prefix,
@@ -146,6 +150,62 @@ class TestReadRootWithSample(unittest.TestCase):
         sectors = read_root(data)
         ids = [s.id for s in sectors]
         self.assertNotIn("Total", ids)
+
+
+class TestLoadStdinJson(unittest.TestCase):
+    """tokei emits UTF-8, so stdin must be decoded as UTF-8 and not with the
+    locale encoding (cp936 / cp1252), otherwise non-ASCII filenames turn into
+    lone surrogates and plotly later fails serialization."""
+
+    NON_ASCII_NAME = os.path.join(".", "archive", "项目开发要求_v0.4.md")
+
+    def _payload(self):
+        return {
+            "Markdown": {
+                "blanks": 1,
+                "code": 2,
+                "comments": 3,
+                "reports": [
+                    {
+                        "name": self.NON_ASCII_NAME,
+                        "stats": {"blanks": 1, "code": 2, "comments": 3},
+                    }
+                ],
+            }
+        }
+
+    def _load(self, raw):
+        fake_stdin = types.SimpleNamespace(buffer=io.BytesIO(raw))
+        with mock.patch.object(sys, "stdin", fake_stdin):
+            return load_stdin_json()
+
+    def test_non_ascii_filename_is_decoded_as_utf8(self):
+        raw = json.dumps(self._payload(), ensure_ascii=False).encode("utf-8")
+        data = self._load(raw)
+        self.assertEqual(data["Markdown"]["reports"][0]["name"], self.NON_ASCII_NAME)
+
+    def test_result_contains_no_lone_surrogate(self):
+        """Encoding back to UTF-8 raises exactly what plotly hits downstream."""
+        raw = json.dumps(self._payload(), ensure_ascii=False).encode("utf-8")
+        data = self._load(raw)
+        dumped = json.dumps(data, ensure_ascii=False)
+        try:
+            dumped.encode("utf-8")
+        except UnicodeEncodeError as exc:  # pragma: no cover
+            self.fail("lone surrogate leaked into the parsed data: %s" % exc)
+
+    def test_invalid_utf8_raises_decode_error(self):
+        with self.assertRaises(UnicodeDecodeError):
+            self._load(b"\xff\xfe\x00 not utf8 \x80\x81")
+
+
+class TestEmptyInput(unittest.TestCase):
+    """Stock tokei-pie raised a bare IndexError on an empty result."""
+
+    def test_no_reports_exits_with_message(self):
+        with self.assertRaises(SystemExit) as ctx:
+            pre_parse_data({"Python": {"reports": []}})
+        self.assertEqual(ctx.exception.code, 129)
 
 
 if __name__ == "__main__":
